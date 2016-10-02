@@ -1,0 +1,21 @@
+# Eclipse IDE files
+**/.classpath
+**/.project
+**/.settings/
+
+# intellj IDE files
+**/*.iml
+**/.idea/
+
+# Apple OS X related
+**/.DS_Store
+
+# build generated
+**/target/
+**/build/
+
+# intermediately generated locally
+**/logs/
+
+tsfile-timeseries/src/main/resources/logback.out.out.xml
+tsfile-timeseries/src/main/resources/logback.out.xml
