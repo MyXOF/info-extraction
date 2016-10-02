@@ -16,6 +16,3 @@
 
 # intermediately generated locally
 **/logs/
-
-tsfile-timeseries/src/main/resources/logback.out.out.xml
-tsfile-timeseries/src/main/resources/logback.out.xml
