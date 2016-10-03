@@ -3,7 +3,6 @@ package com.corp.myxof.relation;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -127,15 +126,15 @@ public class RelationshipExtractor {
 		}
 	}
 	
-	private Relationship parseAllRelationship(String content, String name){
-		Relationship relationship = new Relationship();
-		
+	public Relationship parseAllRelationship(String content, String name){
+		StateMachine machine = new StateMachine(name);
 		Annotation annotation = new Annotation(content);
 		pipeline.annotate(annotation);
 		List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
-		
-		
-		return relationship;
+		for (CoreMap sentence : sentences) {
+			machine.transform(sentence,name.substring(0,1));
+		}
+		return machine.getRelationship();
 	}
 	
 	public void getAllRelationShipInContent(String path) throws DocumentException, IOException{
@@ -186,17 +185,11 @@ public class RelationshipExtractor {
 		writer.close();
 	}
 	
-
-	
 	public static void main(String[] args) throws IOException, DocumentException {
-		String text = "人物：康喜寿 康喜寿 人物分类 京剧 生行演员 科班院校 富连成社 喜字科 学生 康喜寿，男，京剧武生。 能戏绝夥，"
-				+ "无论长靠短打之武生戏，几无一不能。其著者，靠把戏中以《长坂坡》、《金锁阵》、《烧战船》、《阳平关》之赵云，《战渭南》、"
-				+ "《冀州城》之马超，《战濮阳》之吕布，《挑滑车》之高宠，短打戏以《花蝴蝶》之姜永志，《溪皇庄》之尹亮，"
-				+ "《八大拿》等戏之黄天霸，演来万分精彩，火炽异常。他如做工念白戏如《连环套》，唱工戏如《刺巴杰》、《独木关》等，"
-				+ "演来亦颇脍炙人口。至武净戏如《艳阳楼》、《金钱豹》、《铁笼山》尤为精湛。被视为杨小楼真正传人。可惜未能洁身自好，过早地死去。"
-				+ "活动年表 本页使用了 JavaScript 技术。若使本页能正常显示，请启用您浏览器的 JavaScript 功能。 参看 耿喜斌、金连寿、刘喜益 如果您对此人物有任何补充，欢迎提供。 最后更新：2006年01月05日 编辑整理：大戏魔 浏览次数：2453";
+		String text = "尚小云，父元照生三子：长子德海，次子德泉（小云），三子德祿（即小小云）。";
 		RelationshipExtractor extractor = new RelationshipExtractor();
 		extractor.init();
-		extractor.parsePersonName(text);
+		Relationship relationship = extractor.parseAllRelationship(text,"尚小云");
+		System.out.println(relationship);
 	}
 }

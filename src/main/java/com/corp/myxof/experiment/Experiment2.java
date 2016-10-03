@@ -13,8 +13,6 @@ public class Experiment2 {
 		RelationshipExtractor extractor = new RelationshipExtractor();
 		extractor.init();
 		extractor.getAllNameInContent(InfoExtractionConfig.PERFORMER_FILE);
-//		extractor.getAllNameInContent("test.xml");
-
 	}
 
 }
