@@ -23,6 +23,11 @@ public class Visualization {
 	private Set<Pair<String, String>> mentorships;
 	private Map<String, Integer> masterInfo;
 	private Random random;
+	private String colors[] = { "#4f19c7", "#c71969", "#c71919", "#1984c7", 
+								"#8419c7", "#c719b9", "#199fc7", "#9f19c7",
+								"#69c719", "#1919c7"};
+	
+	private final int colorNum = 8;
 
 	public Visualization() {
 		mentorships = new HashSet<>();
@@ -58,7 +63,7 @@ public class Visualization {
 		for (Map.Entry<String, Integer> entry : masterInfo.entrySet()) {
 
 			JSONObject node = new JSONObject();
-			node.put("color", "#"+Integer.toHexString(random.nextInt(0xFFFFFF)));
+			node.put("color", colors[random.nextInt(colorNum)]);
 			node.put("label", entry.getKey());
 			node.put("attributes", new JSONObject());			
 			node.put("y", random.nextInt(5000)-2500);			
