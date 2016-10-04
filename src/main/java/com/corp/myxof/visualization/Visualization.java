@@ -43,16 +43,25 @@ public class Visualization {
 		while (reader.hasNext()) {
 			Element perform = reader.getNext();
 			String name = perform.attributeValue(InfoExtractionConfig.PERFORMER_NAME_LABEL);
+			
+			List<Element> apprentices = perform.elements(InfoExtractionConfig.RELATIONSHIP_APPRENTICE_LABLE);
+			
+			if(apprentices.size() < 5) continue;
+			
+			for (Element apprentice : apprentices) {
+				addMentorship(name, apprentice.getText());
+			}
+			
+			
 			List<Element> masters = perform.elements(InfoExtractionConfig.RELATIONSHIP_MASTER_LABLE);
+			
 			for (Element master : masters) {
 				addMentorship(master.getText(), name);
 			}
 
-			List<Element> apprentices = perform.elements(InfoExtractionConfig.RELATIONSHIP_APPRENTICE_LABLE);
-			for (Element apprentice : apprentices) {
-				addMentorship(name, apprentice.getText());
-			}
+
 		}
+		System.out.println(mentorships.size());
 	}
 
 	public void createJsonData() throws IOException {
