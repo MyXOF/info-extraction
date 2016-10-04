@@ -111,10 +111,10 @@ public class Word {
 				return new Pair<WordType, String>(WordType.PEOPLE, word+nextWord.substring(0,1));
 			}
 			
-			if(word.length() > 1 && DICTIONARY.inDictionary(word.substring(0,2))){
+			if(word.length() > 1 && DICTIONARY.inDictionary(word.substring(0,2)) && !DICTIONARY.inDictionary(word)){
 				return new Pair<WordType, String>(WordType.PEOPLE, word.substring(0,2));
 			}
-			if(word.length() > 2 && DICTIONARY.inDictionary(word.substring(0,3))){
+			if(word.length() > 2 && DICTIONARY.inDictionary(word.substring(0,3)) && !DICTIONARY.inDictionary(word)){
 				return new Pair<WordType, String>(WordType.PEOPLE, word.substring(0,3));
 			}
 			if(word.length() > 1){
@@ -150,10 +150,10 @@ public class Word {
 			if(nextWord != null && DICTIONARY.inDictionary(word+nextWord.substring(0,1))){
 				return new Pair<WordType, String>(WordType.PEOPLE, word+nextWord.substring(0,1));
 			}
-			if(word.length() > 1 && DICTIONARY.inDictionary(word.substring(0,2))){
+			if(word.length() > 1 && DICTIONARY.inDictionary(word.substring(0,2)) && !DICTIONARY.inDictionary(word)){
 				return new Pair<WordType, String>(WordType.PEOPLE, word.substring(0,2));
 			}
-			if(word.length() > 2 && DICTIONARY.inDictionary(word.substring(0,3))){
+			if(word.length() > 2 && DICTIONARY.inDictionary(word.substring(0,3)) && !DICTIONARY.inDictionary(word)){
 				return new Pair<WordType, String>(WordType.PEOPLE, word.substring(0,3));
 			}
 			if(DICTIONARY.inDictionary(word)){

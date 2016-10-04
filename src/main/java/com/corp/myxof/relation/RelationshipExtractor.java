@@ -165,26 +165,28 @@ public class RelationshipExtractor {
 			BufferedReader reader = new BufferedReader(new FileReader(file));
 			String line = null;
 			String name = file.getName();
+			writer.write(name+"\n");
 			try {
 				while((line = reader.readLine()) != null){
 					Relationship relationship = parseAllRelationship(line, name);
 					
 					for(String master : relationship.getMasters()){
-						writer.write(String.format("%s --master-- %s\n", master, name));
+						writer.write(String.format("%s 师傅 %s\n", master, name));
 					}
 					for(String apprentice : relationship.getApprentices()){
-						writer.write(String.format("%s --apprentice-- %s\n", apprentice, name));
+						writer.write(String.format("%s 徒弟 %s\n", apprentice, name));
 					}
 					for(String member : relationship.getFamily()){
-						writer.write(String.format("%s --member-- %s\n", member, name));
+						writer.write(String.format("%s 亲戚 %s\n", member, name));
 					}
 					for(String parter : relationship.getParters()){
-						writer.write(String.format("%s --parter-- %s\n", parter, name));
+						writer.write(String.format("%s 合作 %s\n", parter, name));
 					}
 				}
 			} finally {
 				reader.close();
 			}
+			writer.write("\n");
 		}
 		writer.close();
 	}

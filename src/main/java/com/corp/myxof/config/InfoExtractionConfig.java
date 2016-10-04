@@ -17,19 +17,19 @@ public class InfoExtractionConfig {
 	public static final String PERFORMER_NAME_LABEL = "name";
 	public static final String PERFORMER_WEB_URL_LABEL = "url";
 	public static final String PERFORMER_ARTICLE_LABEL = "article";
-	public static final String PERFORMER_FILE = "web-content.xml";
+	public static final String PERFORMER_FILE = "data/web-content.xml";
 	
 	public static final String PEOPLE_ROOT_LABLE = "root";
 	public static final String PEOPLE_LABEL = "performer";
 	public static final String PEOPLE_NAME_LABEL = "name";
-	public static final String PEOPLE_FILE = "people.xml";
+	public static final String PEOPLE_FILE = "data/people.xml";
 	
 	public static final String RELATIONSHIP_ROOT_LABLE = "root";
 	public static final String RELATIONSHIP_MASTER_LABLE = "master";
 	public static final String RELATIONSHIP_APPRENTICE_LABLE = "apprentice";
 	public static final String RELATIONSHIP_FAMILY_LABLE = "family";
 	public static final String RELATIONSHIP_PARTER_LABLE = "parter";
-	public static final String RELATIONSHIP_FILE = "relationship.xml";
+	public static final String RELATIONSHIP_FILE = "data/relationship.xml";
 	
 	public static final String NLP_PROPS_FILE = "/StanfordCoreNLP-chinese.properties";
 	
@@ -46,10 +46,10 @@ public class InfoExtractionConfig {
 			"侄儿","侄"};
 	public static final String PARTER_WORDS[] = { "和", "同", "与" };
 	public static final String REFERENCE_WORDS[] = {"参见", "参看","参阅", "参考"};
-
 	public static final String SENTENCE_END[] = { ",", ".", "，", "。", ";", "；"  };
-	
 	public static final String TYPE_END[] = {")","）"};
 	public static final String USELESS_WORDS[] = {"变成","饰演","扮演","配演","演"};
+	
+	public static final String RELATIONSHIP_JSON_FILE = "json/relationship.json";
 	
 }
