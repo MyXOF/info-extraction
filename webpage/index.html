@@ -16,7 +16,7 @@
     var myChart = echarts.init(document.getElementById('main'), 'roma');
 
     myChart.showLoading();
-    $.getJSON('https://raw.githubusercontent.com/MyXOF/info-extraction/master/json/data.json', function (json) {
+    $.getJSON('https://raw.githubusercontent.com/MyXOF/info-extraction/master/json/relationship.json', function (json) {
         myChart.hideLoading();
         myChart.setOption(option = {
             title: {

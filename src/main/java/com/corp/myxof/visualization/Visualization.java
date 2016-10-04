@@ -47,7 +47,6 @@ public class Visualization {
 				addMentorship(name, apprentice.getText());
 			}
 		}
-		System.out.println(masterInfo.size());
 	}
 
 	public void createJsonData() throws IOException {
@@ -62,8 +61,8 @@ public class Visualization {
 			node.put("color", "#"+Integer.toHexString(random.nextInt(0xFFFFFF)));
 			node.put("label", entry.getKey());
 			node.put("attributes", new JSONObject());			
-			node.put("y", random.nextInt(2000)-1000);			
-			node.put("x", random.nextInt(2000)-1000);			
+			node.put("y", random.nextInt(5000)-2500);			
+			node.put("x", random.nextInt(5000)-2500);			
 			node.put("id", entry.getKey());
 			node.put("size", entry.getValue());
 			
