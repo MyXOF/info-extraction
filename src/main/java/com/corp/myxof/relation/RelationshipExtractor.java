@@ -141,17 +141,19 @@ public class RelationshipExtractor {
 		int count = 0;
 		reader = new XMLManagerReader(path);
 		writer = new XMLManagerWriter(InfoExtractionConfig.RELATIONSHIP_ROOT_LABLE);
-		
-		while (reader.hasNext()) {
-			Element info = reader.getNext();
-			String performer = info.attributeValue(InfoExtractionConfig.PERFORMER_NAME_LABEL);
-			String content = info.getText();
-			Relationship relationship = parseAllRelationship(content, performer);
-			count++;
-			writer.addRelationInfo(performer, relationship.getMasters(), relationship.getApprentices(), relationship.getFamily(), relationship.getParters());
-			LOGGER.info("{}: parse {}'s relationship article",count, performer);
+		try {
+			while (reader.hasNext()) {
+				Element info = reader.getNext();
+				String performer = info.attributeValue(InfoExtractionConfig.PERFORMER_NAME_LABEL);
+				String content = info.getText();
+				Relationship relationship = parseAllRelationship(content, performer);
+				count++;
+				writer.addRelationInfo(performer, relationship.getMasters(), relationship.getApprentices(), relationship.getFamily(), relationship.getParters());
+				LOGGER.info("{}: parse {}'s relationship article",count, performer);
+			}
+		} finally {
+			writer.writeDocument(InfoExtractionConfig.RELATIONSHIP_FILE);
 		}
-		writer.writeDocument(InfoExtractionConfig.RELATIONSHIP_FILE);
 	}
 	
 	public void getAllRelationToFile(String directory, String output) throws IOException{
@@ -163,33 +165,35 @@ public class RelationshipExtractor {
 			BufferedReader reader = new BufferedReader(new FileReader(file));
 			String line = null;
 			String name = file.getName();
-			while((line = reader.readLine()) != null){
-				Relationship relationship = parseAllRelationship(line, name);
-				
-				for(String master : relationship.getMasters()){
-					writer.write(String.format("%s --master-- %s\n", master, name));
+			try {
+				while((line = reader.readLine()) != null){
+					Relationship relationship = parseAllRelationship(line, name);
+					
+					for(String master : relationship.getMasters()){
+						writer.write(String.format("%s --master-- %s\n", master, name));
+					}
+					for(String apprentice : relationship.getApprentices()){
+						writer.write(String.format("%s --apprentice-- %s\n", apprentice, name));
+					}
+					for(String member : relationship.getFamily()){
+						writer.write(String.format("%s --member-- %s\n", member, name));
+					}
+					for(String parter : relationship.getParters()){
+						writer.write(String.format("%s --parter-- %s\n", parter, name));
+					}
 				}
-				for(String apprentice : relationship.getApprentices()){
-					writer.write(String.format("%s --apprentice-- %s\n", apprentice, name));
-				}
-				for(String member : relationship.getFamily()){
-					writer.write(String.format("%s --member-- %s\n", member, name));
-				}
-				for(String parter : relationship.getParters()){
-					writer.write(String.format("%s --parter-- %s\n", parter, name));
-				}
+			} finally {
+				reader.close();
 			}
-			reader.close();
 		}
-		
 		writer.close();
 	}
 	
 	public static void main(String[] args) throws IOException, DocumentException {
-		String text = "尚小云，父元照生三子：长子德海，次子德泉（小云），三子德祿（即小小云）。";
-		RelationshipExtractor extractor = new RelationshipExtractor();
-		extractor.init();
-		Relationship relationship = extractor.parseAllRelationship(text,"尚小云");
-		System.out.println(relationship);
+//		String text = "尚小云，父元照生三子：长子德海，次子德泉（小云），三子德祿（即小小云）。";
+//		RelationshipExtractor extractor = new RelationshipExtractor();
+//		extractor.init();
+//		Relationship relationship = extractor.parseAllRelationship(text,"尚小云");
+//		System.out.println(relationship);
 	}
 }

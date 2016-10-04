@@ -47,7 +47,7 @@ public class StateMachine {
 			Pair<WordType, String> pair = Word.getWordType(firstName, currentName, currentNE, currnetPOS, nextName);
 			nextState(pair.right, pair.left);
 		}
-
+		endState();
 	}
 	
 	private void nextState(String word, WordType type){
@@ -70,14 +70,40 @@ public class StateMachine {
 		case SENTENCE_END:
 			checkSentenceEnd(word);
 			break;
+		case REFERENCE_WORD:
+			checkReferenceWord(word);
+			break;
 		case USELESS_WORD:
 			checkUselessWord(word);
-			break;				
+			break;
 		default:
 			break;
 		}
 	}
 	
+	private void endState(){
+		switch (state) {
+		case INIT:
+			break;
+		case MASTER:
+			recongizePeople(relationship.getMasters());
+			break;
+		case APPRENTICE:
+			recongizePeople(relationship.getApprentices());
+			break;
+		case FAMILY:
+			recongizePeople(relationship.getFamily());
+			break;
+		case PARTER:
+			recongizePeople(relationship.getParters());
+			break;
+		case REFERENCE:
+			
+			return;	
+		default:
+			break;
+		}
+	}
 	
 	private void checkPeople(String people){
 		switch (state) {
@@ -100,6 +126,8 @@ public class StateMachine {
 			relationship.addParter(people);
 			LOGGER.debug("add parter {}",people);
 			break;
+		case REFERENCE:
+			break;	
 		default:
 			break;
 		}
@@ -108,6 +136,9 @@ public class StateMachine {
 	private void checkMasterWord(String word){
 		switch (state) {
 		case INIT:
+			if(word.length() >= 2){
+				relationship.addMaster(word);
+			}
 			break;
 		case MASTER:
 			break;
@@ -120,6 +151,9 @@ public class StateMachine {
 		case PARTER:
 			recongizePeople(relationship.getParters());
 			break;
+		case REFERENCE:
+			
+			return;	
 		default:
 			break;
 		}
@@ -142,6 +176,8 @@ public class StateMachine {
 		case PARTER:
 			recongizePeople(relationship.getParters());
 			break;
+		case REFERENCE:
+			return;	
 		default:
 			break;
 		}
@@ -151,20 +187,26 @@ public class StateMachine {
 	private void checkFamilyWord(String word){
 		switch (state) {
 		case INIT:
-			
+			if(word.length() >= 2){
+				relationship.addMember(word);
+			}
 			break;
 		case MASTER:
 			recongizePeople(relationship.getMasters());
+			if(word.length() >= 2){
+				relationship.addMember(word);
+			}
 			break;
 		case APPRENTICE:
-			recongizePeople(relationship.getApprentices());
-			break;
+			return;
 		case FAMILY:
 			
 			break;
 		case PARTER:
 			recongizePeople(relationship.getParters());
 			break;
+		case REFERENCE:
+			return;	
 		default:
 			break;
 		}
@@ -174,24 +216,26 @@ public class StateMachine {
 	private void checkParterWord(String word){
 		switch (state) {
 		case INIT:
-			
+			state = STATE.PARTER;
 			break;
 		case MASTER:
-			recongizePeople(relationship.getMasters());
+//			recongizePeople(relationship.getMasters());
 			break;
 		case APPRENTICE:
-			recongizePeople(relationship.getApprentices());
+//			recongizePeople(relationship.getApprentices());
 			break;
 		case FAMILY:
-			recongizePeople(relationship.getFamily());
+//			recongizePeople(relationship.getFamily());
 			break;
 		case PARTER:
 
 			break;
+		case REFERENCE:
+			return;
 		default:
 			break;
 		}
-		state = STATE.PARTER;
+		
 	}
 	
 	private void checkSentenceEnd(String word){
@@ -211,11 +255,39 @@ public class StateMachine {
 		case PARTER:
 			recongizePeople(relationship.getParters());
 			break;
+		case REFERENCE:
+			break;	
 		default:
 			break;
 		}
 		peopleUnKnown.clear();
 		state = STATE.INIT;
+	}
+	
+	private void checkReferenceWord(String word){
+		switch (state) {
+		case INIT:
+			
+			break;
+		case MASTER:
+			recongizePeople(relationship.getMasters());
+			break;
+		case APPRENTICE:
+			recongizePeople(relationship.getApprentices());
+			break;
+		case FAMILY:
+			recongizePeople(relationship.getFamily());
+			break;
+		case PARTER:
+			recongizePeople(relationship.getParters());
+			break;
+		case REFERENCE:
+			break;	
+		default:
+			break;
+		}
+		peopleUnKnown.clear();
+		state = STATE.REFERENCE;
 	}
 	
 	private void checkUselessWord(String word){
@@ -229,7 +301,7 @@ public class StateMachine {
 	}
 	
 	public enum STATE{
-		INIT, MASTER, APPRENTICE, FAMILY, PARTER
+		INIT, MASTER, APPRENTICE, FAMILY, PARTER, REFERENCE
 	}
 
 
