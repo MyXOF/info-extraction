@@ -26,12 +26,12 @@ public class Visualization {
 	private Set<Pair<String, String>> mentorships;
 	private Map<String, Integer> masterInfo;
 	private Random random;
-	private String colors[] = { "#4f19c7", "#c71969", "#c71919", "#1984c7", 
-								"#8419c7", "#c719b9", "#199fc7", "#9f19c7",
-								"#69c719", "#1919c7", "#00FFFF", "#c719b9", 
-								"#FE2EC8"};
+	private String colors[] = { "#c71969", "#c71919", "#FE2EC8", "#c719b9",
+								"#c719b9", "#1984c7", "#8419c7", "#199fc7",
+								"#9f19c7", "#BFC821", "#1919c7", "#8E1AC8"};
 	
-	private final int colorNum = 13;
+	private final int colorNum = 12;
+	private final int majorColor = 4;
 
 	public Visualization() {
 		mentorships = new HashSet<>();
@@ -71,13 +71,19 @@ public class Visualization {
 		for (Map.Entry<String, Integer> entry : masterInfo.entrySet()) {
 
 			JSONObject node = new JSONObject();
-			node.put("color", colors[random.nextInt(colorNum)]);
+			node.put("size", entry.getValue());
 			node.put("label", entry.getKey());
 			node.put("attributes", new JSONObject());			
-			node.put("y", random.nextInt(5000)-2500);			
-			node.put("x", random.nextInt(10000)-5000);			
 			node.put("id", entry.getKey());
-			node.put("size", entry.getValue());
+			
+			if(entry.getValue() > 10){
+				node.put("color", colors[random.nextInt(majorColor)]);
+			}else{
+				node.put("color", colors[random.nextInt(colorNum)]);
+			}
+			
+			node.put("y", random.nextInt(5000)-2500);			
+			node.put("x", random.nextInt(10000)-5000);	
 			
 			nodes.put(node);
 		}
