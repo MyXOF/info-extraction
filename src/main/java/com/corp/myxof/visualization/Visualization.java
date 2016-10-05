@@ -14,12 +14,15 @@ import org.dom4j.DocumentException;
 import org.dom4j.Element;
 import org.json.JSONArray;
 import org.json.JSONObject;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.corp.myxof.config.InfoExtractionConfig;
 import com.corp.myxof.utils.Pair;
 import com.corp.myxof.xml.XMLManagerReader;
 
 public class Visualization {
+	private static final Logger LOGGER = LoggerFactory.getLogger(Visualization.class);
 	private Set<Pair<String, String>> mentorships;
 	private Map<String, Integer> masterInfo;
 	private Random random;
@@ -55,10 +58,8 @@ public class Visualization {
 			for (Element master : masters) {
 				addMentorship(master.getText(), name);
 			}
-
-
 		}
-		System.out.println(mentorships.size());
+		LOGGER.info("mentor ship size : {}",mentorships.size());
 	}
 
 	public void createJsonData() throws IOException {
@@ -76,7 +77,7 @@ public class Visualization {
 			node.put("y", random.nextInt(5000)-2500);			
 			node.put("x", random.nextInt(10000)-5000);			
 			node.put("id", entry.getKey());
-			node.put("size", entry.getValue()/1.5);
+			node.put("size", entry.getValue()/1.2);
 			
 			nodes.put(node);
 		}
