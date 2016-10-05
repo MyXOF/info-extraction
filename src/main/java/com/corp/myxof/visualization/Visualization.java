@@ -27,8 +27,8 @@ public class Visualization {
 	private Map<String, Integer> masterInfo;
 	private Random random;
 	private String colors[] = { "#c71969", "#c71919", "#FE2EC8", "#8419c7",
-								"#138DF8", "#39F813", "#13F86B", "#13F8D6",
-								"#BFC821", "#1919c7", "#8E1AC8", "#F88A13"};
+								"#138DF8", "#39F813", "#19C95C", "#E62F57",
+								"#9ADC49", "#1919c7", "#8E1AC8", "#F88A13"};
 	
 	private final int colorNum = colors.length;
 	private final int majorColor = 4;
