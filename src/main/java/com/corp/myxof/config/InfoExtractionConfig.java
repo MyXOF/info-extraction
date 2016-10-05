@@ -35,7 +35,7 @@ public class InfoExtractionConfig {
 	
 	public static final String DICTIONARY = "src/main/resources/people";
 	
-	public static final String MASTER_WORDS[] = { "老师","师","师事","蒙师","师从", "学", "向", "拜", "拜入","拜名", "从", "习", "求教",
+	public static final String MASTER_WORDS[] = { "老师","师","师事","蒙师","师从", "学", "向","曾拜", "拜", "拜入","拜名", "从", "习", "求教",
 			"随","教师","受教于","得","投","门下","受业于","受教于","受教","受业","受"};
 	public static final String APPRENTICE_WORDS[] = { "弟子", "收", "徒", "招", "学生", "后人", "门生", "传人", "拜师"};
 	public static final String FAMILY_WORDS[] = { 

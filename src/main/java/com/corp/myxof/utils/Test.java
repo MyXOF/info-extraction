@@ -5,8 +5,8 @@ import java.util.Random;
 public class Test {
 
 	public static void main(String[] args) {
-		Random random = new Random(System.currentTimeMillis());
-		System.out.println(Integer.toHexString(random.nextInt(0xFFFFFF)));
+		int a = 10;
+		System.out.println(a/1.5);
 
 	}
 

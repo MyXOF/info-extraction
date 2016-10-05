@@ -2236,6 +2236,7 @@
   </performer>
   <performer name="侯喜瑞">
     <master>孙盛文</master>
+    <master>于连泉</master>
     <master>张胤德</master>
     <master>青风寨</master>
     <master>王玉清</master>
@@ -2248,7 +2249,6 @@
     <master>富连成</master>
     <master>萧长华</master>
     <master>罗春友</master>
-    <master>曾拜于连泉</master>
     <master>裘盛戎</master>
     <master>刘连荣</master>
     <master>韩乐卿</master>
@@ -3076,7 +3076,6 @@
     <parter>唐韵笙</parter>
     <parter>武林志</parter>
     <parter>袁世海</parter>
-    <parter>曾参加</parter>
     <parter>张世桐</parter>
     <parter>张艺</parter>
     <parter>刘宗杨</parter>
@@ -6149,7 +6148,6 @@
     <master>赵阎王</master>
     <master>洪达</master>
     <master>香稻米</master>
-    <parter>曾参加</parter>
     <parter>田汉</parter>
     <parter>张彭春</parter>
   </performer>
@@ -6633,7 +6631,6 @@
     <family>周昌</family>
     <family>黄忠</family>
     <family>杨延昭</family>
-    <parter>曾参加</parter>
     <parter>茹秀成</parter>
     <parter>王又宸</parter>
     <parter>刘荣升</parter>
@@ -8443,7 +8440,6 @@
   </performer>
   <performer name="邱富棠">
     <master>贾顺成</master>
-    <master>曾参加</master>
     <master>宋起山</master>
     <family>赵喜魁</family>
     <parter>荀慧生</parter>
@@ -9805,7 +9801,6 @@
     <master>陈富康</master>
     <master>萧连芳</master>
     <apprentice>汪克义</apprentice>
-    <family>曾参加</family>
     <family>马富禄</family>
   </performer>
   <performer name="郑岩">
