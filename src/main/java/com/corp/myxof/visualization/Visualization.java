@@ -46,7 +46,7 @@ public class Visualization {
 			
 			List<Element> apprentices = perform.elements(InfoExtractionConfig.RELATIONSHIP_APPRENTICE_LABLE);
 			
-			if(apprentices.size() < 5) continue;
+			if(apprentices.size() < 10) continue;
 			
 			for (Element apprentice : apprentices) {
 				addMentorship(name, apprentice.getText());
@@ -79,7 +79,7 @@ public class Visualization {
 			node.put("y", random.nextInt(5000)-2500);			
 			node.put("x", random.nextInt(10000)-5000);			
 			node.put("id", entry.getKey());
-			node.put("size", entry.getValue());
+			node.put("size", entry.getValue()/2);
 			
 			nodes.put(node);
 		}
