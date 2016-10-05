@@ -28,7 +28,7 @@ public class Visualization {
 	private Random random;
 	private String colors[] = { "#c71969", "#c71919", "#FE2EC8", "#8419c7",
 								"#138DF8", "#39F813", "#19C95C", "#E62F57",
-								"#9ADC49", "#1919c7", "#8E1AC8", "#F88A13"};
+								"#9ADC49", "#1919c7", "#8E1AC8", "#F88A13", "#E0E750"};
 	
 	private final int colorNum = colors.length;
 	private final int majorColor = 4;
