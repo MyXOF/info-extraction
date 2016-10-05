@@ -1,7 +1,5 @@
 package com.corp.myxof.relation;
 
-import static org.junit.Assert.*;
-
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -148,7 +146,7 @@ public class RelationshipExtractorTest {
 				+ "章遏云、新艳秋、赵荣琛、侯玉兰、王吟秋、李世济、李蔷华等。1958年3月9日，他的心脏病又因突发性梗塞加剧，仅几分钟便夺去了这位艺术大师的生命，年仅54岁。";
 		name5 = "程砚秋";
 		
-		content6 = "曾拜陆杏林为师。曾拜梅兰芳为师。";
+		content6 = "主要包括《红娘》、《红楼二尤》、《杜十娘》、《荀灌娘》、《钗头凤》、《十三妹》、《玉堂春》、《金玉奴》、《得意缘》、《卓文君》等";
 		name6 = "王蕙芳";
 	}
 

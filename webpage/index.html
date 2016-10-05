@@ -35,7 +35,7 @@
                             y: node.y,
                             id: node.id,
                             name: node.label,
-                            symbolSize: node.size/2,
+                            symbolSize: caculateNodeSize(node.size),
                             itemStyle: {
                                 normal: {
                                     color: node.color
@@ -56,14 +56,7 @@
                         },
                         emphasis: {
                             position: 'right',
-                            show: true,
-//                            textStyle: {
-//                                color: '#000000',
-//                                fontStyle: 'normal',
-//                                fontWeight: 'bolder',
-//                                fontFamily: 'sans-serif',
-//                                fontSize: 16
-//                            }
+                            show: true
                         }
                     },
                     roam: true,
@@ -79,6 +72,15 @@
             ]
         }, true);
     });
+
+
+    function caculateNodeSize(size) {
+        if (size <= 5)
+            return size * 4;
+        if (size > 5 && size < 20)
+            return size * 1.5;
+        return size * 1.2;
+    }
 </script>
 </body>
 </html>

@@ -48,7 +48,7 @@ public class InfoExtractionConfig {
 	public static final String REFERENCE_WORDS[] = {"参见", "参看","参阅", "参考"};
 	public static final String SENTENCE_END[] = { ",", ".", "，", "。", ";", "；"  };
 	public static final String TYPE_END[] = {")","）"};
-	public static final String USELESS_WORDS[] = {"变成","饰演","扮演","饰","扮","配演","配","演","得以"};
+	public static final String USELESS_WORDS[] = {"变成","饰演","扮演","饰","扮","配演","配","演","得以","红娘"};
 	
 	public static final String RELATIONSHIP_JSON_FILE = "json/relationship.json";
 	

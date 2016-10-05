@@ -160,7 +160,7 @@ public class WordRecognizer {
 		return null;
 	}
 
-	public static boolean wordInList(String word, String[] wordFilterList) {
+	private static boolean wordInList(String word, String[] wordFilterList) {
 		for (String wordFilter : wordFilterList) {
 			if (wordFilter.equals(word)) {
 				return true;
@@ -169,7 +169,7 @@ public class WordRecognizer {
 		return false;
 	}
 
-	public static boolean wordEndsInList(String word, String[] wordFilterList) {
+	private static boolean wordEndsInList(String word, String[] wordFilterList) {
 		for (String wordFilter : wordFilterList) {
 			if (word.endsWith(wordFilter)) {
 				return true;

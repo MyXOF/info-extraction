@@ -13,5 +13,4 @@ public class Experiment4 {
 		extractor.init();
 		extractor.getAllRelationToFile("people-introduction", "result");
 	}
-
 }

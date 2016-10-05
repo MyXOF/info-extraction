@@ -219,13 +219,10 @@ public class StateMachine {
 			state = STATE.PARTER;
 			break;
 		case MASTER:
-//			recongizePeople(relationship.getMasters());
 			break;
 		case APPRENTICE:
-//			recongizePeople(relationship.getApprentices());
 			break;
 		case FAMILY:
-//			recongizePeople(relationship.getFamily());
 			break;
 		case PARTER:
 
@@ -298,6 +295,7 @@ public class StateMachine {
 		for(String person : peopleUnKnown){
 			people.add(person);
 		}
+		peopleUnKnown.clear();
 	}
 	
 	public enum STATE{

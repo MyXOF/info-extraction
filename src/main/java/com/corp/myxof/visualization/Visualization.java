@@ -77,7 +77,7 @@ public class Visualization {
 			node.put("y", random.nextInt(5000)-2500);			
 			node.put("x", random.nextInt(10000)-5000);			
 			node.put("id", entry.getKey());
-			node.put("size", entry.getValue()/1.2);
+			node.put("size", entry.getValue());
 			
 			nodes.put(node);
 		}
