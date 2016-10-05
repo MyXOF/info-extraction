@@ -26,11 +26,12 @@ public class Visualization {
 	private Set<Pair<String, String>> mentorships;
 	private Map<String, Integer> masterInfo;
 	private Random random;
-	private String colors[] = { "#c71969", "#c71919", "#FE2EC8", "#c719b9",
-								"#c719b9", "#1984c7", "#8419c7", "#199fc7",
-								"#9f19c7", "#BFC821", "#1919c7", "#8E1AC8"};
+	private String colors[] = { "#c71969", "#c71919", "#FE2EC8", "#8419c7",
+								"#c719b9", "#1984c7", "#199fc7", "#c719b9",
+								"#9f19c7", "#BFC821", "#1919c7", "#8E1AC8",
+								"#c719b9"};
 	
-	private final int colorNum = 12;
+	private final int colorNum = colors.length;
 	private final int majorColor = 4;
 
 	public Visualization() {
@@ -79,7 +80,7 @@ public class Visualization {
 			if(entry.getValue() > 10){
 				node.put("color", colors[random.nextInt(majorColor)]);
 			}else{
-				node.put("color", colors[random.nextInt(colorNum)]);
+				node.put("color", colors[random.nextInt(colorNum-majorColor)+majorColor]);
 			}
 			
 			node.put("y", random.nextInt(5000)-2500);			
