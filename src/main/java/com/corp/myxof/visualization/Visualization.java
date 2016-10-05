@@ -45,15 +45,12 @@ public class Visualization {
 			String name = perform.attributeValue(InfoExtractionConfig.PERFORMER_NAME_LABEL);
 			
 			List<Element> apprentices = perform.elements(InfoExtractionConfig.RELATIONSHIP_APPRENTICE_LABLE);
-			
-			if(apprentices.size() < 10) continue;
+			List<Element> masters = perform.elements(InfoExtractionConfig.RELATIONSHIP_MASTER_LABLE);
+			if(apprentices.size() < 6) continue;
 			
 			for (Element apprentice : apprentices) {
 				addMentorship(name, apprentice.getText());
-			}
-			
-			
-			List<Element> masters = perform.elements(InfoExtractionConfig.RELATIONSHIP_MASTER_LABLE);
+			}			
 			
 			for (Element master : masters) {
 				addMentorship(master.getText(), name);

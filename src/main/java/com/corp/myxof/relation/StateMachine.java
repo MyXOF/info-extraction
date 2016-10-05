@@ -44,7 +44,7 @@ public class StateMachine {
 				nextName = tokens.get(i+1).get(TextAnnotation.class);
 			}
 			LOGGER.debug("{}--{}--{}--{}", currentName, currnetPOS, currentNE, nextName);
-			Pair<WordType, String> pair = Word.getWordType(firstName, currentName, currentNE, currnetPOS, nextName);
+			Pair<WordType, String> pair = WordRecognizer.getWordType(firstName, currentName, currentNE, currnetPOS, nextName);
 			nextState(pair.right, pair.left);
 		}
 		endState();

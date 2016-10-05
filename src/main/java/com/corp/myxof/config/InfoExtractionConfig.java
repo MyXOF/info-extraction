@@ -35,8 +35,8 @@ public class InfoExtractionConfig {
 	
 	public static final String DICTIONARY = "src/main/resources/people";
 	
-	public static final String MASTER_WORDS[] = { "师","师事","蒙师","师从", "学", "向", "拜", "拜入","拜名", "从", "习", "求教",
-			"随","教师","受教于","得","投","门下","受业于","受业","受"};
+	public static final String MASTER_WORDS[] = { "老师","师","师事","蒙师","师从", "学", "向", "拜", "拜入","拜名", "从", "习", "求教",
+			"随","教师","受教于","得","投","门下","受业于","受教于","受教","受业","受"};
 	public static final String APPRENTICE_WORDS[] = { "弟子", "收", "徒", "招", "学生", "后人", "门生", "传人", "拜师"};
 	public static final String FAMILY_WORDS[] = { 
 			"祖父", "爷爷", "父", "养父", "父亲", "母亲", "母", "妻", "前室", "续室","夫人",
@@ -48,7 +48,7 @@ public class InfoExtractionConfig {
 	public static final String REFERENCE_WORDS[] = {"参见", "参看","参阅", "参考"};
 	public static final String SENTENCE_END[] = { ",", ".", "，", "。", ";", "；"  };
 	public static final String TYPE_END[] = {")","）"};
-	public static final String USELESS_WORDS[] = {"变成","饰演","扮演","配演","演"};
+	public static final String USELESS_WORDS[] = {"变成","饰演","扮演","饰","扮","配演","配","演","得以"};
 	
 	public static final String RELATIONSHIP_JSON_FILE = "json/relationship.json";
 	

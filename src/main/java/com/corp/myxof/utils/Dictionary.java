@@ -42,7 +42,7 @@ public class Dictionary {
 	
 	public static void main(String[] args) throws IOException {
 		Dictionary dictionary = new Dictionary("src/main/resources/people");
-		System.out.println(dictionary.inDictionary("李小春"));
+		System.out.println(dictionary.inDictionary("陆杏林"));
 		
 //		BufferedWriter writer = new BufferedWriter(new FileWriter("src/main/resources/people"));
 //		for(String word : dictionary.getDictionary()){

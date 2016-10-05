@@ -148,8 +148,8 @@ public class RelationshipExtractorTest {
 				+ "章遏云、新艳秋、赵荣琛、侯玉兰、王吟秋、李世济、李蔷华等。1958年3月9日，他的心脏病又因突发性梗塞加剧，仅几分钟便夺去了这位艺术大师的生命，年仅54岁。";
 		name5 = "程砚秋";
 		
-		content6 = "幼年曾随李春福学老生，是为“把手徒弟”。1907年进入“三乐社”科班（后改名“正乐社”），艺名“三锡”，先习武生，又学花脸。其后因师辈们见其扮相秀丽、英俊，逐让他改学旦行，师从青衣名家孙怡云，便改艺名为“小云”。1912年在广和楼公演，尚小云的戏很受欢迎。1913年李际良掌三乐，更名正乐社，演于民乐。1914年冬，与孙菊仙配《三娘教子》、《战蒲关》，被评为“第一童伶”。世人称尚小云、白牡丹、芙蓉草为“正乐三杰”。";
-		name6 = "李庆春";
+		content6 = "亦受教于路三宝、陆杏林";
+		name6 = "王蕙芳";
 	}
 
 	@After
@@ -158,23 +158,28 @@ public class RelationshipExtractorTest {
 
 	@Test
 	public void test() {
-//		relationship = extractor.parseAllRelationship(content1,name1);
-//		System.out.println(relationship);
-//		
-//		relationship = extractor.parseAllRelationship(content2,name2);
-//		System.out.println(relationship);
-//		
-//		relationship = extractor.parseAllRelationship(content3,name3);
-//		System.out.println(relationship);
-//		
-//		relationship = extractor.parseAllRelationship(content4,name4);
-//		System.out.println(relationship);
-//		
-//		relationship = extractor.parseAllRelationship(content5,name5);
-//		System.out.println(relationship);	
-		
 		relationship = extractor.parseAllRelationship(content6,name6);
 		System.out.println(relationship);	
 	}
 
+	@Test
+	public void testAll(){
+		relationship = extractor.parseAllRelationship(content1,name1);
+		System.out.println(relationship);
+		
+		relationship = extractor.parseAllRelationship(content2,name2);
+		System.out.println(relationship);
+		
+		relationship = extractor.parseAllRelationship(content3,name3);
+		System.out.println(relationship);
+		
+		relationship = extractor.parseAllRelationship(content4,name4);
+		System.out.println(relationship);
+		
+		relationship = extractor.parseAllRelationship(content5,name5);
+		System.out.println(relationship);	
+		
+		relationship = extractor.parseAllRelationship(content6,name6);
+		System.out.println(relationship);	
+	}
 }
