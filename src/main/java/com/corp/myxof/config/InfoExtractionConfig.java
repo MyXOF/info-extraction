@@ -28,7 +28,7 @@ public class InfoExtractionConfig {
 	public static final String RELATIONSHIP_MASTER_LABLE = "master";
 	public static final String RELATIONSHIP_APPRENTICE_LABLE = "apprentice";
 	public static final String RELATIONSHIP_FAMILY_LABLE = "family";
-	public static final String RELATIONSHIP_PARTER_LABLE = "parter";
+	public static final String RELATIONSHIP_PARTER_LABLE = "partner";
 	public static final String RELATIONSHIP_FILE = "data/relationship.xml";
 	
 	public static final String NLP_PROPS_FILE = "/StanfordCoreNLP-chinese.properties";
