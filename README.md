@@ -1,6 +1,6 @@
 # info-extraction
 ## 简介
-info-extraction项目实现了从戏考网(http://www.xikao.com)爬取关于京剧名家的介绍，并抽取出介绍的人名以及相互之间的关系。
+info-extraction项目实现了从[戏考网](http://www.xikao.com)爬取关于京剧名家的介绍，并抽取出介绍的人名以及相互之间的关系。
 
 ## 环境配置
 
@@ -167,7 +167,7 @@ public class Experiment4 {
 
 ## 结果
 
-最终结果采用了了ECharts(http://echarts.baidu.com)，对部分师徒关系进行了可视化分析。
+最终结果采用了了[ECharts](http://echarts.baidu.com)，对部分师徒关系进行了可视化分析。
 
 ![京剧人物师徒关系(部分)](img/pic1.png)
 <center>京剧人物师徒关系(部分)</center>
