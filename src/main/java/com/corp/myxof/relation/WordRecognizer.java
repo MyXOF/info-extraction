@@ -40,9 +40,9 @@ public class WordRecognizer {
 			return new Pair<WordType, String>(WordType.APPRENTICE_WORD, word);
 		}
 
-		// Pater Word
-		if (wordInList(word, InfoExtractionConfig.PARTER_WORDS)) {
-			return new Pair<WordType, String>(WordType.PARTER_WORD, word);
+		// Partner Word
+		if (wordInList(word, InfoExtractionConfig.PARTNER_WORDS)) {
+			return new Pair<WordType, String>(WordType.PARTNER_WORD, word);
 		}
 
 		// Family Word

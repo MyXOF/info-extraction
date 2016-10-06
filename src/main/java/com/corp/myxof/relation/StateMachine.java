@@ -64,7 +64,7 @@ public class StateMachine {
 		case FAMILY_WORD:
 			checkFamilyWord(word);
 			break;
-		case PARTER_WORD:
+		case PARTNER_WORD:
 			checkParterWord(word);
 			break;			
 		case SENTENCE_END:

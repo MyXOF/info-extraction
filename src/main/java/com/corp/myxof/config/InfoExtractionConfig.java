@@ -44,7 +44,7 @@ public class InfoExtractionConfig {
 			"弟弟", "弟", "哥哥","哥", "姐", "姐姐", "妹","妹妹", "兄",
 			"娶", "女婿",
 			"侄儿","侄"};
-	public static final String PARTER_WORDS[] = { "和", "同", "与" };
+	public static final String PARTNER_WORDS[] = { "和", "同", "与" };
 	public static final String REFERENCE_WORDS[] = {"参见", "参看","参阅", "参考"};
 	public static final String SENTENCE_END[] = { ",", ".", "，", "。", ";", "；"  };
 	public static final String TYPE_END[] = {")","）"};
