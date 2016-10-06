@@ -121,7 +121,7 @@ public class Experiment3 {
 * master标签表示这个人是主人公的师傅
 * apprentice标签表示这个人是主人公的徒弟
 * family标签表示这个人是主人公的亲戚
-* parter标签表示这个人和主人公有过合作
+* partner标签表示这个人和主人公有过合作
 
 
 ```
@@ -132,7 +132,7 @@ public class Experiment3 {
 	<performer name="孟丽君">
 	<family>刘少春</family>
 	<family>孟喜平</family>
-	<parter>唐韵笙</parter>
+	<partner>唐韵笙</partner>
 </performer>
 <performer name="余紫云">
 	<master>梅巧玲</master>
@@ -140,7 +140,7 @@ public class Experiment3 {
 	<family>余慧清</family>
 	<family>果湘林</family>
 	<family>余叔岩</family>
-	<parter>李铁</parter>
+	<partner>李铁</partner>
 </performer>
 ```
 
