@@ -62,7 +62,6 @@
     <apprentice>焦鸿英</apprentice>
     <apprentice>胡芝风</apprentice>
     <apprentice>魏莲芳</apprentice>
-    <apprentice>武老生</apprentice>
     <apprentice>黄世恩</apprentice>
     <apprentice>丁至云</apprentice>
     <apprentice>杨玉娟</apprentice>
@@ -88,6 +87,7 @@
     <apprentice>赵文漪</apprentice>
     <apprentice>申丽媛</apprentice>
     <apprentice>胡漱芳</apprentice>
+    <apprentice>文武</apprentice>
     <apprentice>毛世来</apprentice>
     <apprentice>卢燕</apprentice>
     <apprentice>顾景梅</apprentice>
@@ -182,7 +182,6 @@
   </performer>
   <performer name="吴菱仙">
     <master>梅雨田</master>
-    <master>战蒲关</master>
     <master>梅兰芳</master>
     <apprentice>梅兰芳</apprentice>
     <apprentice>福芝芳</apprentice>
@@ -350,7 +349,6 @@
     <family>尚德祿</family>
     <family>王蕙芳</family>
     <family>尚德泉</family>
-    <family>战蒲关</family>
     <family>任志秋</family>
     <family>尚长春</family>
     <family>胡氏</family>
@@ -495,7 +493,6 @@
     <parter>王学戏</parter>
   </performer>
   <performer name="毛世来">
-    <master>世字科</master>
     <master>荀慧生</master>
     <master>李万春</master>
     <master>王连平</master>
@@ -520,7 +517,6 @@
     <family>斌庆社</family>
     <family>张君秋</family>
     <parter>荀慧生</parter>
-    <parter>樊江关</parter>
     <parter>李世芳</parter>
     <parter>刘元彤</parter>
     <parter>李洪春</parter>
@@ -550,7 +546,6 @@
     <master>欧阳予倩</master>
     <master>江青</master>
     <family>马彦祥</family>
-    <family>樊江关</family>
     <family>马思猛</family>
     <family>彦祥伯</family>
     <family>新艳秋</family>
@@ -576,7 +571,6 @@
     <parter>周恩来</parter>
     <parter>李少春</parter>
     <parter>雪艳琴</parter>
-    <parter>柳荫记</parter>
     <parter>杨宗森</parter>
     <parter>马少波</parter>
     <parter>李乙尊</parter>
@@ -625,7 +619,6 @@
     <master>韩世昌</master>
     <master>花旦戏</master>
     <master>筱翠花</master>
-    <master>玉字科</master>
     <family>萧太后</family>
     <family>芦花河</family>
     <family>张金凤</family>
@@ -777,7 +770,6 @@
     <master>苏雨卿</master>
     <master>李连贞</master>
     <master>萧连芳</master>
-    <apprentice>世字科</apprentice>
     <family>姚玉芙</family>
     <family>石观音</family>
     <family>李子健</family>
@@ -790,7 +782,6 @@
   </performer>
   <performer name="李玉芝">
     <master>李华</master>
-    <master>玉字科</master>
     <parter>李玉茹</parter>
   </performer>
   <performer name="李玉芙">
@@ -808,7 +799,6 @@
     <master>梅兰芳</master>
     <master>李华</master>
     <master>筱翠花</master>
-    <master>玉字科</master>
     <master>赵桐珊</master>
     <family>李慧娘</family>
     <family>周信芳</family>
@@ -827,7 +817,6 @@
     <parter>潘金莲</parter>
     <parter>曹禺</parter>
     <parter>叶盛章</parter>
-    <parter>香妃恨</parter>
     <parter>俞振飞</parter>
     <parter>杨宝森</parter>
     <parter>言菊朋</parter>
@@ -839,17 +828,16 @@
   <performer name="李金鸿">
     <master>阎岚秋</master>
     <master>李凌枫</master>
-    <master>金字科</master>
-    <master>诸茹香</master>
-    <master>张善亭</master>
-    <master>李平</master>
-    <master>李华</master>
     <master>王瑶卿</master>
     <master>萧长华</master>
+    <master>诸茹香</master>
+    <master>张善亭</master>
     <master>包丹庭</master>
+    <master>李平</master>
     <master>尚小云</master>
     <master>梅兰芳</master>
     <master>韩世昌</master>
+    <master>李华</master>
     <family>石观音</family>
     <parter>叶盛章</parter>
     <parter>李世芳</parter>
@@ -954,7 +942,6 @@
     <master>李少春</master>
     <family>王派戏</family>
     <family>谢瑶环</family>
-    <family>柳荫记</family>
     <family>桃花扇</family>
     <parter>姜妙香</parter>
     <parter>于徐兰沅</parter>
@@ -1010,7 +997,6 @@
     <family>童祥苓</family>
   </performer>
   <performer name="张世孝">
-    <master>世字科</master>
     <master>苏盛琴</master>
     <master>王梦云</master>
     <master>果湘林</master>
@@ -1087,7 +1073,6 @@
     <family>张慧</family>
     <family>张长海</family>
     <parter>毛世来</parter>
-    <parter>樊江关</parter>
     <parter>谢虹雯</parter>
     <parter>张艺</parter>
     <parter>李德彬</parter>
@@ -1096,7 +1081,6 @@
     <master>阳友鹤</master>
     <family>谭记儿</family>
     <family>丁佑君</family>
-    <family>柳荫记</family>
     <parter>周企何</parter>
   </performer>
   <performer name="陈永玲（京剧旦角）">
@@ -1159,11 +1143,9 @@
   <performer name="高华">
     <master>王瑶卿</master>
     <master>梅兰芳</master>
-    <parter>荒山泪</parter>
     <parter>程砚秋</parter>
     <parter>杨宝森</parter>
     <parter>梅兰芳</parter>
-    <parter>江油关</parter>
   </performer>
   <performer name="徐碧云">
     <master>徐手中</master>
@@ -1210,7 +1192,6 @@
   </performer>
   <performer name="唐富尧">
     <master>高连第</master>
-    <master>樊江关</master>
     <master>苏雨卿</master>
     <master>吴富琴</master>
     <master>荣蝶仙</master>
@@ -1227,22 +1208,18 @@
     <parter>宋庆龄</parter>
     <parter>陈刚叔</parter>
   </performer>
-  <performer name="贾世珍">
-    <apprentice>世字科</apprentice>
-  </performer>
+  <performer name="贾世珍"/>
   <performer name="顾正秋">
     <master>芙蓉草</master>
     <master>朱传茗</master>
-    <master>樊江关</master>
-    <master>魏莲芳</master>
-    <master>春秋配</master>
-    <master>郑传鉴</master>
-    <master>黄桂秋</master>
-    <master>金山寺</master>
     <master>吴继兰</master>
+    <master>魏莲芳</master>
     <master>宋德珠</master>
+    <master>春秋配</master>
     <master>梅兰芳</master>
     <master>吴富琴</master>
+    <master>郑传鉴</master>
+    <master>黄桂秋</master>
     <master>汉明妃</master>
     <master>张君秋</master>
     <apprentice>黄桂秋</apprentice>
@@ -1260,7 +1237,6 @@
     <master>金素琴</master>
     <master>梅兰芳</master>
     <master>凤还巢</master>
-    <master>胭脂虎</master>
     <master>赵君玉</master>
     <apprentice>胡陆蕙</apprentice>
     <apprentice>王复琰</apprentice>
@@ -1384,9 +1360,9 @@
     <master>李兰英</master>
     <master>蒋宝印</master>
     <master>孙盛辅</master>
-    <master>武老生</master>
     <master>徐碧云</master>
     <master>朱斌仙</master>
+    <master>文武</master>
     <master>贯大元</master>
     <master>梅兰芳</master>
     <master>王惠</master>
@@ -1428,7 +1404,6 @@
     <family>李元芳</family>
     <family>英杰烈</family>
     <family>马上缘</family>
-    <family>冀州城</family>
   </performer>
   <performer name="魏莲芳">
     <master>朱素云</master>
@@ -1459,9 +1434,9 @@
   <performer name="谭鑫培">
     <master>高庆奎</master>
     <master>许荫棠</master>
+    <master>文武</master>
     <master>冯瑞祥</master>
     <master>言菊朋</master>
-    <master>武老生</master>
     <master>马连良</master>
     <master>程长庚</master>
     <master>余叔岩</master>
@@ -1529,7 +1504,6 @@
     <family>谭少英</family>
     <family>谭嘉祜</family>
     <family>谭嘉瑞</family>
-    <family>南阳关</family>
     <family>谭嘉荣</family>
     <parter>汪桂芬</parter>
     <parter>田际云</parter>
@@ -1555,7 +1529,6 @@
   <performer name="时小福">
     <master>徐阿福</master>
     <master>郑秀兰</master>
-    <family>时青山</family>
     <family>陈呜喜</family>
     <family>时德宝</family>
     <family>时慧宝</family>
@@ -1618,13 +1591,11 @@
     <family>程继仙</family>
     <family>程章圃</family>
     <family>程闻檄</family>
-    <family>武小生</family>
     <family>彭莉军</family>
     <parter>王瑶卿</parter>
     <parter>郭春山</parter>
     <parter>杨春圃</parter>
     <parter>蔡荣贵</parter>
-    <parter>武小生</parter>
     <parter>杨小楼</parter>
     <parter>梅兰芳</parter>
     <parter>余叔岩</parter>
@@ -1676,7 +1647,6 @@
     <master>王金璐</master>
     <master>张春孝</master>
     <master>梁连柱</master>
-    <family>武老生</family>
     <family>迟景荣</family>
     <parter>阎岚秋</parter>
     <parter>俞振庭</parter>
@@ -1694,7 +1664,6 @@
     <family>福寿镜</family>
     <family>范福泰</family>
     <parter>许德义</parter>
-    <parter>荒山泪</parter>
     <parter>程砚秋</parter>
     <parter>陈丽卿</parter>
     <parter>尚小云</parter>
@@ -1720,7 +1689,6 @@
     <master>贺仁杰</master>
     <master>梅雨田</master>
     <master>杨隆寿</master>
-    <master>武小生</master>
     <master>杨小楼</master>
     <master>姚增禄</master>
     <master>金仲仁</master>
@@ -1799,9 +1767,7 @@
     <master>贺仁杰</master>
     <master>贾家楼</master>
     <master>梅兰芳</master>
-    <master>铁笼山</master>
     <master>黄天霸</master>
-    <master>战渭南</master>
     <family>杨铁珠</family>
     <family>杨少春</family>
     <family>杨铁嗣</family>
@@ -1822,7 +1788,6 @@
   </performer>
   <performer name="杨少春">
     <master>杨盛春</master>
-    <master>金雁桥</master>
     <master>茹富兰</master>
     <master>张世麟</master>
     <master>徐元珊</master>
@@ -1856,18 +1821,15 @@
   </performer>
   <performer name="王瑶卿">
     <master>张正荃</master>
-    <master>琵琶缘</master>
     <master>陈德霖</master>
     <master>谢双寿</master>
     <master>李紫珊</master>
-    <master>柳荫记</master>
     <master>万里</master>
     <apprentice>荀慧生</apprentice>
     <apprentice>程砚秋</apprentice>
     <apprentice>尚小云</apprentice>
     <apprentice>梅兰芳</apprentice>
     <family>王绚云</family>
-    <family>荀灌娘</family>
     <family>梅兰芳</family>
     <family>王福寿</family>
     <parter>王平</parter>
@@ -1878,18 +1840,17 @@
     <master>张春彦</master>
     <master>董魁荣</master>
     <master>贾立川</master>
-    <master>娃娃生</master>
     <master>王瑶卿</master>
     <master>吴连奎</master>
     <master>刘五毓</master>
     <master>赵仙舫</master>
     <master>余叔岩</master>
     <master>刘赶三</master>
+    <family>文武</family>
     <family>杨宝忠</family>
     <family>杨毓麟</family>
     <family>杨桂云</family>
     <family>杨宝森</family>
-    <family>武老生</family>
     <family>朱莲芬</family>
     <family>杨宝义</family>
     <family>斌庆社</family>
@@ -1897,15 +1858,14 @@
   </performer>
   <performer name="梅巧玲">
     <master>玉玲珑</master>
-    <master>胭脂虎</master>
     <family>朱霭云</family>
     <family>小荣椿</family>
     <family>王顺福</family>
     <family>胡喜禄</family>
-    <family>武老生</family>
     <family>王氏为</family>
     <family>梅竹芬</family>
     <family>陈金雀</family>
+    <family>名武</family>
     <family>梅雨田</family>
     <family>杨隆寿</family>
     <family>王八十</family>
@@ -1929,7 +1889,6 @@
     <master>吴菱仙</master>
     <master>曹心泉</master>
     <master>梅兰芳</master>
-    <master>玉字科</master>
     <family>吴菱仙</family>
     <family>吴玉琳</family>
     <parter>程砚秋</parter>
@@ -1945,13 +1904,11 @@
     <master>陆小芬</master>
     <family>程章圃</family>
     <family>程闻檄</family>
-    <family>武小生</family>
     <family>彭莉军</family>
     <parter>王瑶卿</parter>
     <parter>郭春山</parter>
     <parter>杨春圃</parter>
     <parter>蔡荣贵</parter>
-    <parter>武小生</parter>
     <parter>杨小楼</parter>
     <parter>梅兰芳</parter>
     <parter>余叔岩</parter>
@@ -1994,7 +1951,6 @@
     <family>陆凤琴</family>
     <family>陆喜才</family>
     <family>陆连贵</family>
-    <family>张家口</family>
   </performer>
   <performer name="陆喜才">
     <master>叶福海</master>
@@ -2010,8 +1966,8 @@
   </performer>
   <performer name="赵喜贞">
     <master>华学</master>
+    <master>文武</master>
     <master>萧长华</master>
-    <master>武小生</master>
     <family>赵喜魁</family>
   </performer>
   <performer name="赵喜魁">
@@ -2074,7 +2030,6 @@
   </performer>
   <performer name="武喜永">
     <apprentice>叶春善</apprentice>
-    <family>武老生</family>
   </performer>
   <performer name="萧长华">
     <master>刘鸿升</master>
@@ -2198,7 +2153,6 @@
     <parter>郝寿臣</parter>
     <parter>连环套</parter>
     <parter>雪艳琴</parter>
-    <parter>冀州城</parter>
     <parter>董维贤</parter>
     <parter>萧长华</parter>
     <parter>尚小云</parter>
@@ -2234,7 +2188,6 @@
     <master>王长林</master>
     <master>茹莱卿</master>
     <master>周恩来</master>
-    <master>盗宗卷</master>
     <master>张君秋</master>
     <master>孙菊仙</master>
     <family>马崇义</family>
@@ -2255,7 +2208,6 @@
     <parter>谭富英</parter>
     <parter>裘盛戎</parter>
     <parter>周信芳</parter>
-    <parter>状元媒</parter>
     <parter>张君秋</parter>
   </performer>
   <performer name="于连泉">
@@ -2263,7 +2215,6 @@
     <master>侯峻山</master>
     <master>王瑶卿</master>
     <master>田桂凤</master>
-    <master>战蒲关</master>
     <master>秦良玉</master>
     <master>梅降雪</master>
     <master>余玉琴</master>
@@ -2311,7 +2262,6 @@
     <family>陈德霖</family>
     <family>福海</family>
     <family>伍建章</family>
-    <family>武老生</family>
     <family>慈瑞泉</family>
     <family>谭喜寿</family>
     <family>巴骆和</family>
@@ -2346,13 +2296,11 @@
     <parter>谭元寿</parter>
     <parter>富连成</parter>
     <parter>宋继亭</parter>
-    <parter>战蒲关</parter>
     <parter>尚小云</parter>
     <parter>余叔岩</parter>
     <parter>梅兰芳</parter>
     <parter>碧云霞</parter>
     <parter>筱翠花</parter>
-    <parter>盗宗卷</parter>
     <parter>张君秋</parter>
     <parter>荀慧生</parter>
     <parter>姜妙香</parter>
@@ -2368,7 +2316,6 @@
     <parter>徐碧云</parter>
     <parter>徐斌寿</parter>
     <parter>叶春善</parter>
-    <parter>南阳关</parter>
     <parter>司马伦</parter>
     <parter>殷家堡</parter>
   </performer>
@@ -2544,7 +2491,6 @@
     <family>叶春善</family>
     <family>庆顶珠</family>
     <family>石观音</family>
-    <family>巧连环</family>
     <family>祥梅寺</family>
     <parter>袁世海</parter>
     <parter>李少春</parter>
@@ -2552,8 +2498,6 @@
   <performer name="叶盛兰">
     <master>石秀</master>
     <master>程继仙</master>
-    <master>武小生</master>
-    <master>柳荫记</master>
     <master>桃花扇</master>
     <master>曹心泉</master>
     <master>吕奉先</master>
@@ -2611,9 +2555,7 @@
     <master>吴彦衡</master>
     <master>郝寿臣</master>
     <master>马富禄</master>
-    <apprentice>世字科</apprentice>
     <family>濡吟客</family>
-    <parter>响马传</parter>
     <parter>裘桂仙</parter>
     <parter>叶盛章</parter>
     <parter>叶盛兰</parter>
@@ -2654,7 +2596,6 @@
     <parter>谭富英</parter>
     <parter>奚啸伯</parter>
     <parter>杜近芳</parter>
-    <parter>独木关</parter>
     <parter>杨宝森</parter>
     <parter>张云溪</parter>
     <parter>张春华</parter>
@@ -2683,7 +2624,6 @@
     <master>雷喜福</master>
     <master>李盛荫</master>
     <apprentice>叶盛长</apprentice>
-    <apprentice>世字科</apprentice>
     <family>叶盛章</family>
     <family>叶春善</family>
     <family>叶盛兰</family>
@@ -2715,7 +2655,6 @@
     <apprentice>王凤卿</apprentice>
     <apprentice>王鸿寿</apprentice>
     <family>王益芳</family>
-    <family>武老生</family>
     <family>林宝奎</family>
     <family>李洪春</family>
     <family>李金声</family>
@@ -2915,7 +2854,6 @@
     <parter>袁青云</parter>
     <parter>田际云</parter>
     <parter>入宝胜</parter>
-    <parter>战蒲关</parter>
     <parter>梅兰芳</parter>
     <parter>黄鹤楼</parter>
     <parter>王凤卿</parter>
@@ -2927,16 +2865,15 @@
     <master>张连福</master>
     <master>张盛禄</master>
     <master>黄鹤楼</master>
-    <apprentice>世字科</apprentice>
   </performer>
   <performer name="刘宗杨">
     <master>蔡荣贵</master>
     <master>斌庆社</master>
     <family>刘宗华</family>
     <family>刘长瑞</family>
+    <family>刘桐</family>
     <family>刘砚芳</family>
     <family>迟世恭</family>
-    <family>梧桐</family>
     <family>刘宗绪</family>
     <family>刘砚亭</family>
     <family>高盛麟</family>
@@ -3052,7 +2989,6 @@
     <master>荀慧生</master>
     <master>尚小云</master>
     <master>梅兰芳</master>
-    <family>金猛关</family>
     <family>梅玉配</family>
     <parter>王瑶卿</parter>
     <parter>科于章邱庆</parter>
@@ -3173,7 +3109,6 @@
     <apprentice>汤小梅</apprentice>
     <apprentice>王小蓉</apprentice>
     <apprentice>杨秋玲</apprentice>
-    <family>还阳草</family>
     <family>王瑶卿</family>
     <family>崔灵芝</family>
     <family>李灵芝</family>
@@ -3231,12 +3166,10 @@
   </performer>
   <performer name="赵荣琛">
     <master>郭际湘</master>
-    <master>荒山泪</master>
     <master>程砚秋</master>
     <master>孙怡云</master>
     <master>关丽卿</master>
     <family>牧羊卷</family>
-    <family>战蒲关</family>
     <family>朱痕记</family>
   </performer>
   <performer name="侯玉兰（京剧旦角）">
@@ -3245,7 +3178,6 @@
     <master>吴富琴</master>
     <master>白云生</master>
     <master>李少春</master>
-    <master>玉字科</master>
     <master>朱痕记</master>
     <apprentice>侯玉兰</apprentice>
     <family>侯月亭</family>
@@ -3273,7 +3205,6 @@
     <apprentice>程砚秋</apprentice>
     <parter>马连良</parter>
     <parter>裘盛戎</parter>
-    <parter>杜鹃山</parter>
   </performer>
   <performer name="李春福"/>
   <performer name="孙怡云">
@@ -3304,7 +3235,6 @@
     <apprentice>汤小梅</apprentice>
     <apprentice>王小蓉</apprentice>
     <apprentice>杨秋玲</apprentice>
-    <family>还阳草</family>
     <family>王瑶卿</family>
     <family>崔灵芝</family>
     <family>李灵芝</family>
@@ -3356,7 +3286,6 @@
   </performer>
   <performer name="孙荣蕙">
     <master>荣蕙</master>
-    <master>武老生</master>
     <master>孙连春</master>
     <master>孙景泉</master>
     <master>王少芳</master>
@@ -3389,7 +3318,6 @@
     <parter>叶盛兰</parter>
     <parter>赵和春</parter>
     <parter>王益禄</parter>
-    <parter>樊江关</parter>
     <parter>尚小云</parter>
     <parter>王金璐</parter>
     <parter>李多奎</parter>
@@ -3434,7 +3362,6 @@
     <family>周素</family>
     <family>李铁梅</family>
     <family>周秀英</family>
-    <family>杜鹃山</family>
   </performer>
   <performer name="尚慧敏">
     <master>董玉玲</master>
@@ -3504,7 +3431,6 @@
     <family>李春</family>
     <parter>徐宝芳</parter>
     <parter>叶福海</parter>
-    <parter>金山寺</parter>
     <parter>苗广顺</parter>
     <parter>王月芳</parter>
     <parter>萧长荣</parter>
@@ -3640,7 +3566,6 @@
     <parter>王君直</parter>
     <parter>杨小楼</parter>
     <parter>王荣山</parter>
-    <parter>南阳关</parter>
     <parter>孪吉瑞</parter>
     <parter>孟小冬</parter>
   </performer>
@@ -3655,8 +3580,8 @@
   </performer>
   <performer name="高庆奎">
     <master>贾丽川</master>
+    <master>文武</master>
     <master>高华</master>
-    <master>武老生</master>
     <master>李鑫甫</master>
     <apprentice>马少襄</apprentice>
     <apprentice>王斌芬</apprentice>
@@ -3668,7 +3593,6 @@
     <family>亚荣</family>
     <family>高韵笙</family>
     <family>高盛麟</family>
-    <family>独木关</family>
     <family>高士杰</family>
     <family>刘生</family>
     <family>高世泰</family>
@@ -3682,7 +3606,6 @@
     <master>梅兰芳</master>
     <family>朱文英</family>
     <parter>俞振庭</parter>
-    <parter>金山寺</parter>
     <parter>杨小楼</parter>
     <parter>梅兰芳</parter>
   </performer>
@@ -3693,7 +3616,7 @@
   </performer>
   <performer name="小达子">
     <family>班坐科</family>
-    <family>武老生</family>
+    <family>文武</family>
     <family>李少春</family>
   </performer>
   <performer name="舒舍予"/>
@@ -3709,7 +3632,6 @@
     <master>阎岚秋</master>
     <master>朱桂芳</master>
     <master>郭际湘</master>
-    <master>金山寺</master>
     <master>诸茹香</master>
     <master>张善亭</master>
     <master>余玉琴</master>
@@ -3730,7 +3652,6 @@
     <master>魏莲芳</master>
     <master>何佩华</master>
     <master>尚小云</master>
-    <master>玉字科</master>
     <master>赵桐珊</master>
     <apprentice>吴素秋</apprentice>
     <family>杨娥传</family>
@@ -3747,7 +3668,6 @@
     <master>何佩华</master>
     <family>诸茹香</family>
     <family>铁弓缘</family>
-    <family>盘夫</family>
     <parter>杨宝森</parter>
     <parter>马连良</parter>
     <parter>梅兰芳</parter>
@@ -4074,16 +3994,13 @@
     <master>邹慧兰</master>
     <master>姚增禄</master>
     <master>于世文</master>
-    <family>铁笼山</family>
   </performer>
   <performer name="班世超">
     <master>梅兰芳</master>
     <master>李少春</master>
-    <apprentice>世字科</apprentice>
     <family>杨庆国</family>
   </performer>
   <performer name="郭金光">
-    <master>金字科</master>
     <master>金字班</master>
   </performer>
   <performer name="樊富顺">
@@ -4282,7 +4199,6 @@
     <family>萧长华</family>
     <family>王芳</family>
     <family>萧连芳</family>
-    <parter>冀州城</parter>
   </performer>
   <performer name="赵砚奎">
     <apprentice>张长林</apprentice>
@@ -4297,7 +4213,6 @@
     <master>侯峻山</master>
     <master>王瑶卿</master>
     <master>田桂凤</master>
-    <master>战蒲关</master>
     <master>秦良玉</master>
     <master>梅降雪</master>
     <master>余玉琴</master>
@@ -4354,7 +4269,6 @@
     <master>杨小楼</master>
     <master>程永龙</master>
     <master>张德禄</master>
-    <master>南阳关</master>
     <master>潞安州</master>
     <apprentice>李军</apprentice>
     <apprentice>关鸣林</apprentice>
@@ -4435,7 +4349,6 @@
     <master>蒋干</master>
     <master>刘德智</master>
     <master>铁弓缘</master>
-    <apprentice>世字科</apprentice>
     <family>杨家将</family>
     <family>王福山</family>
     <parter>荀慧生</parter>
@@ -4505,15 +4418,14 @@
     <apprentice>王瑶</apprentice>
     <apprentice>程玉菁</apprentice>
     <family>王宝钏</family>
-    <family>早巳戳</family>
-    <family>小王玉蓉</family>
-    <family>杨六郎</family>
-    <family>丁震春</family>
     <family>王幼卿</family>
+    <family>早巳戳</family>
     <family>王瑶卿</family>
     <family>姚玉芙</family>
-    <family>哈宝山</family>
+    <family>小王玉蓉</family>
     <family>王春娥</family>
+    <family>杨六郎</family>
+    <family>丁震春</family>
     <family>王福寿</family>
     <family>王云亭</family>
     <family>马长礼</family>
@@ -4626,11 +4538,11 @@
     <apprentice>赵世璞</apprentice>
     <apprentice>鲁艺峰</apprentice>
     <family>李玉芝</family>
+    <family>文武</family>
     <family>诸茹香</family>
     <family>李门</family>
     <family>李光</family>
     <family>李岩</family>
-    <family>武老生</family>
     <family>李欣</family>
     <family>李多奎</family>
     <family>茹富慧</family>
@@ -4648,9 +4560,6 @@
     <master>华慧麟</master>
     <master>王瑶卿</master>
     <master>林树森</master>
-    <master>樊江关</master>
-    <master>琵琶缘</master>
-    <master>金猛关</master>
     <master>郎霞玉</master>
     <master>薛金莲</master>
     <master>苏巧云</master>
@@ -4818,7 +4727,6 @@
     <master>华慧麟</master>
     <master>王瑶卿</master>
     <master>萧长华</master>
-    <master>樊江关</master>
     <master>俞振飞</master>
     <master>尚小云</master>
     <master>言慧珠</master>
@@ -4832,7 +4740,6 @@
     <master>梅兰芳</master>
     <master>程玉菁</master>
     <master>陈世鼐</master>
-    <master>状元媒</master>
     <master>赵桐珊</master>
     <master>张君秋</master>
     <apprentice>张君秋</apprentice>
@@ -4930,7 +4837,6 @@
     <parter>杨小楼</parter>
   </performer>
   <performer name="王世续">
-    <master>世字科</master>
     <master>荀慧生</master>
     <master>张连福</master>
     <master>刘曾复</master>
@@ -4997,18 +4903,17 @@
   </performer>
   <performer name="包丹庭">
     <master>叶盛兰</master>
+    <master>文武</master>
     <master>侯峻山</master>
     <master>杨慕兰</master>
     <master>赵啸澜</master>
     <master>荣春社</master>
     <master>顾森柏</master>
-    <master>武老生</master>
     <master>尚小云</master>
     <master>梅兰芳</master>
     <master>王福寿</master>
     <master>雪艳琴</master>
     <apprentice>江世玉</apprentice>
-    <family>战潼台</family>
     <family>张伯驹</family>
     <family>尚小云</family>
     <parter>钟秋岩</parter>
@@ -5042,7 +4947,6 @@
     <master>王吟秋</master>
     <master>孟宪嵘</master>
     <master>李蔷华</master>
-    <master>荒山泪</master>
     <master>渠天皇</master>
     <master>张春秋</master>
     <master>赵秀春</master>
@@ -5065,7 +4969,6 @@
     <master>李春</master>
     <master>李喜鸿</master>
     <master>佟熙英</master>
-    <family>荒山泪</family>
     <family>铁弓缘</family>
     <family>朱痕记</family>
   </performer>
@@ -5085,7 +4988,6 @@
     <apprentice>王吟秋</apprentice>
     <family>胡笳</family>
     <parter>胡笳</parter>
-    <parter>荒山泪</parter>
   </performer>
   <performer name="丁晓君">
     <master>姜凤山</master>
@@ -5119,8 +5021,8 @@
   </performer>
   <performer name="贯大元">
     <master>贾丽川</master>
+    <master>文武</master>
     <master>吴联奎</master>
-    <master>武老生</master>
     <master>丽川之侄贾洪林</master>
     <master>梅兰芳</master>
     <master>姚增禄</master>
@@ -5333,7 +5235,6 @@
     <parter>朱素云</parter>
     <parter>王瑶卿</parter>
     <parter>程继先</parter>
-    <parter>金猛关</parter>
     <parter>梅兰芳</parter>
     <parter>荣蝶仙</parter>
     <parter>秦淮河</parter>
@@ -5368,7 +5269,6 @@
     <parter>状元印</parter>
     <parter>谭富英</parter>
     <parter>迟月亭</parter>
-    <parter>冀州城</parter>
   </performer>
   <performer name="李淑媛">
     <master>华世香</master>
@@ -5390,7 +5290,6 @@
     <master>李军</master>
     <master>蔡晋萍</master>
     <master>李平</master>
-    <master>独木关</master>
     <master>连环套</master>
     <apprentice>李门</apprentice>
     <family>李磊</family>
@@ -5437,7 +5336,6 @@
     <family>苏娥是</family>
   </performer>
   <performer name="陈世鼐">
-    <master>世字科</master>
     <master>富连成</master>
     <master>陈派</master>
   </performer>
@@ -5448,10 +5346,8 @@
     <family>谢瑶环</family>
   </performer>
   <performer name="赓金群">
-    <master>金字科</master>
     <master>汪子良</master>
     <family>谢瑶环</family>
-    <family>柳荫记</family>
     <parter>尚小云</parter>
   </performer>
   <performer name="唐韵笙">
@@ -5459,8 +5355,6 @@
     <family>金刚钻</family>
   </performer>
   <performer name="王凤朝">
-    <master>周总理</master>
-    <family>未排字</family>
     <family>王岐山</family>
     <family>孙岳</family>
     <family>景荣庆</family>
@@ -5510,7 +5404,6 @@
     <parter>杜福珍</parter>
     <parter>冯志孝</parter>
     <parter>袁国林</parter>
-    <parter>京二胡</parter>
     <parter>孙岳</parter>
     <parter>张岚</parter>
     <parter>艾美君</parter>
@@ -5533,7 +5426,6 @@
     <family>汪桂芬</family>
     <family>王幼卿</family>
     <family>王瑶卿</family>
-    <parter>京二胡</parter>
     <parter>徐兰沅</parter>
     <parter>梅兰芳</parter>
   </performer>
@@ -5564,7 +5456,6 @@
     <family>审潘洪</family>
     <family>黄金台</family>
     <family>余叔岩</family>
-    <family>南阳关</family>
     <family>连营寨</family>
     <family>朱痕记</family>
     <family>李克非</family>
@@ -5716,7 +5607,6 @@
     <master>吴鹭涵</master>
     <master>蔡荣桂</master>
     <master>陈秀华</master>
-    <master>盗魂铃</master>
     <family>徐东霞</family>
     <family>徐东来</family>
     <family>明霞社</family>
@@ -5754,7 +5644,6 @@
     <master>萧长华</master>
     <master>狄龙</master>
     <master>姚增禄</master>
-    <master>冀州城</master>
     <apprentice>芦林坡</apprentice>
     <family>马连良</family>
     <parter>邱富棠</parter>
@@ -5788,7 +5677,6 @@
     <master>丁永利</master>
     <master>曹心泉</master>
     <master>陈少五</master>
-    <master>金字科</master>
     <master>曹玺彦</master>
     <master>蔡荣贵</master>
     <master>马连良</master>
@@ -5838,7 +5726,6 @@
     <master>厉慧良</master>
     <master>马少良</master>
     <master>曾向程</master>
-    <master>南阳关</master>
     <master>李少春</master>
     <family>马玉良</family>
   </performer>
@@ -5948,7 +5835,6 @@
     <family>谭富英</family>
     <family>裘盛戎</family>
     <family>叶含嫣</family>
-    <family>杜鹃山</family>
     <family>张君秋</family>
     <parter>沈家宏</parter>
     <parter>程砚秋</parter>
@@ -6030,7 +5916,6 @@
     <parter>裘盛戎</parter>
     <parter>李盛藻</parter>
     <parter>秋瑾</parter>
-    <parter>状元媒</parter>
     <parter>张君秋</parter>
   </performer>
   <performer name="谢锐青">
@@ -6045,7 +5930,6 @@
     <master>侯峻山</master>
     <master>王瑶卿</master>
     <master>田桂凤</master>
-    <master>战蒲关</master>
     <master>秦良玉</master>
     <master>梅降雪</master>
     <master>余玉琴</master>
@@ -6078,7 +5962,7 @@
     <parter>郁达夫</parter>
   </performer>
   <performer name="李紫贵">
-    <master>武老生</master>
+    <master>文武</master>
     <master>李平</master>
     <master>斯拉夫</master>
     <family>田汉</family>
@@ -6103,8 +5987,8 @@
     <master>顾兆琳</master>
     <master>朱秋帆</master>
     <apprentice>柯军</apprentice>
+    <apprentice>文武</apprentice>
     <apprentice>计镇华</apprentice>
-    <apprentice>武老生</apprentice>
     <parter>俞振飞</parter>
   </performer>
   <performer name="纪玉良">
@@ -6156,7 +6040,6 @@
     <parter>杨宝森</parter>
   </performer>
   <performer name="李金棠">
-    <master>金字科</master>
     <master>李平</master>
     <master>李华</master>
     <parter>于占元</parter>
@@ -6166,9 +6049,7 @@
     <parter>张正芬</parter>
     <parter>哈元章</parter>
   </performer>
-  <performer name="于金骅">
-    <master>金字科</master>
-  </performer>
+  <performer name="于金骅"/>
   <performer name="赵君玉">
     <master>夏月珊</master>
     <master>欧阳予倩</master>
@@ -6324,9 +6205,6 @@
     <master>艳阳楼</master>
     <master>丁永利</master>
     <master>武文华</master>
-    <master>渭水河</master>
-    <master>战蒲关</master>
-    <master>铁笼山</master>
     <master>状元印</master>
     <master>刘春利</master>
     <master>连环套</master>
@@ -6623,14 +6501,12 @@
     <apprentice>俞菊笙</apprentice>
     <apprentice>杨月楼</apprentice>
     <family>牧羊卷</family>
-    <family>字子英</family>
     <parter>刘万义</parter>
     <parter>张奎官</parter>
   </performer>
   <performer name="余三胜">
     <family>黄金台</family>
     <family>黄鹤楼</family>
-    <family>南阳关</family>
   </performer>
   <performer name="何桂山">
     <master>汪正士</master>
@@ -6712,7 +6588,6 @@
     <master>张盛禄</master>
     <master>甄洪奎</master>
     <master>李金枝</master>
-    <apprentice>世字科</apprentice>
     <apprentice>顾日伦</apprentice>
     <apprentice>张志贤</apprentice>
   </performer>
@@ -6722,7 +6597,6 @@
     <master>方荣翔</master>
     <master>刘喜义</master>
     <master>武花脸</master>
-    <apprentice>世字科</apprentice>
     <apprentice>张元奎</apprentice>
     <family>谭淑英</family>
     <family>叶盛章</family>
@@ -6738,7 +6612,7 @@
   </performer>
   <performer name="吴彦衡">
     <master>许德义</master>
-    <master>武老生</master>
+    <master>文武</master>
     <master>王月芳</master>
     <master>小商河</master>
     <master>李洪春</master>
@@ -6748,8 +6622,8 @@
     <family>荀慧生</family>
     <family>吴彩霞</family>
     <family>吴荣喜</family>
+    <family>文武</family>
     <family>吴小楼</family>
-    <family>武老生</family>
     <family>谭鑫培</family>
     <family>谭嘉瑞</family>
     <parter>荀慧生</parter>
@@ -6804,7 +6678,6 @@
     <master>马连良</master>
     <master>雷喜福</master>
     <master>李盛荫</master>
-    <apprentice>世字科</apprentice>
     <family>叶盛章</family>
     <family>叶春善</family>
     <family>叶盛兰</family>
@@ -6842,7 +6715,6 @@
     <family>谭富英</family>
   </performer>
   <performer name="谭世秀">
-    <apprentice>世字科</apprentice>
     <apprentice>李金泉</apprentice>
     <family>谭小羽</family>
     <family>谭晓令</family>
@@ -6874,7 +6746,6 @@
     <master>孙振泉</master>
     <master>王玉敏</master>
     <master>李金泉</master>
-    <master>望儿楼</master>
     <master>吴江及</master>
     <master>刘桂欣</master>
     <master>刘莉莉</master>
@@ -6888,7 +6759,6 @@
   </performer>
   <performer name="李金泉">
     <master>刘俊峰</master>
-    <master>金字科</master>
     <master>文亮臣</master>
     <master>李华</master>
     <master>李多奎</master>
@@ -6901,7 +6771,6 @@
     <parter>李少春</parter>
   </performer>
   <performer name="谭小羽">
-    <master>南阳关</master>
     <family>谭元寿</family>
     <family>谭秋萍</family>
     <family>谭世秀</family>
@@ -6949,7 +6818,6 @@
     <parter>翁偶虹</parter>
     <parter>孙菊仙</parter>
     <parter>刘仲秋</parter>
-    <parter>金山寺</parter>
     <parter>刘喜奎</parter>
     <parter>言菊朋</parter>
     <parter>杨小楼</parter>
@@ -7007,8 +6875,8 @@
     <master>章梅岑</master>
     <master>张聊止</master>
     <family>阎岚秋</family>
+    <family>文武</family>
     <family>董凤岩</family>
-    <family>武老生</family>
     <family>朱文英</family>
     <parter>彭福林</parter>
     <parter>范福泰</parter>
@@ -7091,7 +6959,6 @@
     <family>厉慧森</family>
     <family>厉慧兰</family>
     <family>厉慧斌</family>
-    <family>铁笼山</family>
     <family>樵闹府·打棍</family>
     <parter>景荣庆</parter>
     <parter>张幼麟</parter>
@@ -7122,7 +6989,6 @@
     <master>周信芳</master>
     <master>赵桐顺</master>
     <family>刘韵芳</family>
-    <family>娃娃生</family>
     <family>刘燕云</family>
     <parter>姜妙香</parter>
     <parter>吴素秋</parter>
@@ -7422,7 +7288,6 @@
     <family>李顺亭</family>
     <family>顺德</family>
     <parter>俞菊笙</parter>
-    <parter>荒山泪</parter>
     <parter>程砚秋</parter>
     <parter>谭鑫培</parter>
     <parter>张君秋</parter>
@@ -7468,7 +7333,6 @@
     <family>陈宫</family>
     <family>王允祥</family>
     <family>龚兰荪</family>
-    <family>麒麟罽</family>
     <family>为文澜</family>
     <family>陈嘉梁</family>
     <parter>陈金雀</parter>
@@ -7586,7 +7450,6 @@
     <master>王连平</master>
     <master>茹富兰</master>
     <master>宋继亭</master>
-    <master>武小生</master>
     <apprentice>曾向徐</apprentice>
     <apprentice>李玉芙</apprentice>
     <family>徐嘉瑞</family>
@@ -7637,7 +7500,6 @@
   <performer name="袁金凯">
     <master>丁永利</master>
     <master>荀慧生</master>
-    <master>金字科</master>
     <master>朱宝康</master>
     <master>程砚秋</master>
     <master>方颐珍</master>
@@ -7664,7 +7526,6 @@
     <master>焦菊隐</master>
     <master>马连良</master>
     <master>裘世戎</master>
-    <master>铁笼山</master>
     <parter>叶盛章</parter>
     <parter>富连成</parter>
     <parter>茹富兰</parter>
@@ -7777,7 +7638,6 @@
     <parter>杨桂云</parter>
     <parter>陈德霖</parter>
     <parter>黄润甫</parter>
-    <parter>胭脂虎</parter>
     <parter>汪桂芬</parter>
     <parter>嵩祝成</parter>
     <parter>田桂凤</parter>
@@ -7790,7 +7650,6 @@
     <parter>张荣奎</parter>
   </performer>
   <performer name="朱莲芬">
-    <master>金山寺</master>
     <master>小放牛</master>
     <apprentice>陈德霖</apprentice>
     <family>朱天祥</family>
@@ -7910,7 +7769,6 @@
     <family>陈宫</family>
     <family>王允祥</family>
     <family>龚兰荪</family>
-    <family>麒麟罽</family>
     <family>为文澜</family>
     <family>陈嘉梁</family>
     <parter>曹文澜</parter>
@@ -8021,7 +7879,6 @@
   <performer name="骆连翔">
     <master>王连平</master>
     <master>杨万清</master>
-    <master>战岱州</master>
   </performer>
   <performer name="王连奎">
     <master>萧长华</master>
@@ -8037,7 +7894,6 @@
     <master>赵喜奎</master>
   </performer>
   <performer name="孟丽君">
-    <master>周总理</master>
     <family>刘少春</family>
     <family>孟喜平</family>
     <parter>唐韵笙</parter>
@@ -8246,8 +8102,6 @@
     <master>小放牛</master>
     <master>金喜棠</master>
     <master>英节烈</master>
-    <master>胭脂虎</master>
-    <family>樊江关</family>
     <family>马上缘</family>
     <family>巴骆和</family>
     <family>穆天王</family>
@@ -8266,7 +8120,6 @@
     <master>苏雨卿</master>
     <master>李连贞</master>
     <master>萧连芳</master>
-    <apprentice>世字科</apprentice>
     <family>庆顶珠</family>
   </performer>
   <performer name="宋富亭">
@@ -8294,7 +8147,6 @@
     <master>张关正</master>
     <apprentice>荣春社</apprentice>
     <parter>方连元</parter>
-    <parter>普球山</parter>
     <parter>张德俊</parter>
     <parter>萧长华</parter>
     <parter>青风寨</parter>
@@ -8309,7 +8161,6 @@
     <master>雷喜福</master>
   </performer>
   <performer name="阎世善">
-    <master>世字科</master>
     <master>富连成</master>
     <master>谢锐青</master>
     <master>荣春社</master>
@@ -8354,7 +8205,6 @@
   </performer>
   <performer name="马崇仁">
     <master>侯喜瑞</master>
-    <master>金字科</master>
     <family>马伟民</family>
     <family>马连良</family>
     <family>兰斓</family>
@@ -8550,10 +8400,8 @@
     <master>萧长华</master>
     <master>马思远</master>
     <master>郭春山</master>
-    <master>樊江关</master>
     <master>皂王</master>
     <master>秦淮河</master>
-    <master>胭脂虎</master>
     <master>萧连芳</master>
     <master>穆天王</master>
   </performer>
@@ -8690,7 +8538,6 @@
     <family>何盛清</family>
     <family>李德奎</family>
     <family>薛广福</family>
-    <family>草桥关</family>
     <family>李世琦</family>
     <family>孙爱华</family>
     <family>刘佳欣</family>
@@ -8811,7 +8658,6 @@
   </performer>
   <performer name="王正屏">
     <master>裘盛戎</master>
-    <family>盗马</family>
     <family>连环套</family>
     <parter>裘盛戎</parter>
     <parter>李小春</parter>
@@ -8827,9 +8673,7 @@
     <apprentice>尚小云</apprentice>
     <family>王海波</family>
   </performer>
-  <performer name="裘世戎">
-    <apprentice>世字科</apprentice>
-  </performer>
+  <performer name="裘世戎"/>
   <performer name="裘少戎">
     <master>方荣翔</master>
     <family>裘盛戎</family>
@@ -8841,7 +8685,6 @@
     <master>夏韵龙</master>
     <master>杨振刚</master>
     <master>王正屏</master>
-    <master>盗马</master>
     <master>武花脸</master>
     <parter>杰克逊</parter>
   </performer>
@@ -9071,8 +8914,6 @@
     <master>郝鸣超</master>
     <master>孟俊泉</master>
     <parter>黄荆树</parter>
-    <parter>盗马</parter>
-    <parter>杜鹃山</parter>
   </performer>
   <performer name="陈汉文">
     <master>李长春</master>
@@ -9101,14 +8942,12 @@
   </performer>
   <performer name="王嘉庆">
     <master>李长春</master>
-    <family>盗马</family>
   </performer>
   <performer name="高四保">
     <family>高庆奎</family>
   </performer>
   <performer name="高世泰">
     <master>萧长华</master>
-    <apprentice>世字科</apprentice>
     <family>高庆奎</family>
     <family>高盛麟</family>
     <family>张连廷</family>
@@ -9116,7 +8955,6 @@
   <performer name="高世寿">
     <master>刘喜益</master>
     <master>郝喜伦</master>
-    <apprentice>世字科</apprentice>
     <family>高庆奎</family>
     <family>刘华琳</family>
     <family>苏武</family>
@@ -9190,8 +9028,6 @@
   <performer name="丁震春">
     <master>洪德佑</master>
     <master>李兰亭</master>
-    <master>独木关</master>
-    <master>铁笼山</master>
     <master>连环套</master>
     <master>李少春</master>
     <master>周仲传</master>
@@ -9200,12 +9036,10 @@
     <master>刘鼎五</master>
     <master>曹艺斌</master>
     <master>周啸天</master>
-    <master>战渭南</master>
     <master>陈金柏</master>
     <master>马纪良</master>
     <master>张德华</master>
     <master>高盛麟</master>
-    <master>淮都关</master>
     <master>韩长宝</master>
     <master>袁金凯</master>
     <master>周亚川</master>
@@ -9215,7 +9049,6 @@
     <master>白水滩</master>
     <master>张铁华</master>
     <master>周少楼</master>
-    <master>南阳关</master>
     <master>黄云鹏</master>
     <master>潞安州</master>
     <apprentice>张大军</apprentice>
@@ -9223,8 +9056,8 @@
     <apprentice>周龙</apprentice>
     <apprentice>江长春</apprentice>
     <apprentice>吕锁森</apprentice>
+    <family>文武</family>
     <family>小王玉蓉</family>
-    <family>武老生</family>
     <family>王小蓉</family>
     <family>马超</family>
     <family>亚斌</family>
@@ -9390,15 +9223,14 @@
     <apprentice>魏春芳</apprentice>
   </performer>
   <performer name="叶少兰">
+    <master>文武</master>
     <master>俞振飞</master>
     <master>罗成</master>
     <master>叶芳</master>
-    <master>武小生</master>
     <master>萧连芳</master>
     <master>陈盛泰</master>
     <family>叶盛兰</family>
     <family>叶明</family>
-    <family>武小生</family>
     <family>许嘉宝</family>
     <family>叶蓬</family>
   </performer>
@@ -9454,7 +9286,6 @@
     <master>周恩来</master>
     <parter>田汉</parter>
     <parter>洪深</parter>
-    <parter>柳荫记</parter>
   </performer>
   <performer name="李和曾">
     <master>高庆奎</master>
@@ -9480,9 +9311,7 @@
     <master>童芷苓</master>
     <master>李少春</master>
     <master>金少山</master>
-    <family>响马传</family>
     <family>高亮</family>
-    <family>鸳鸯泪</family>
     <family>瓮头春</family>
   </performer>
   <performer name="吴素英（京剧旦角）"/>
@@ -9498,7 +9327,6 @@
     <parter>袁世海</parter>
     <parter>杜近芳</parter>
     <parter>李少春</parter>
-    <parter>战渭南</parter>
   </performer>
   <performer name="曹韵清">
     <master>曹永清</master>
@@ -9519,16 +9347,14 @@
     <parter>余玉琴</parter>
     <parter>青龙棍</parter>
   </performer>
-  <performer name="费世威">
-    <apprentice>世字科</apprentice>
-  </performer>
+  <performer name="费世威"/>
   <performer name="郭自勤">
     <family>王晶华</family>
   </performer>
   <performer name="宋锋">
     <family>宋遇春</family>
+    <family>文武</family>
     <family>宋奕萱</family>
-    <family>武老生</family>
   </performer>
   <performer name="杨长秀">
     <family>刘宗杨</family>
@@ -9536,7 +9362,6 @@
   </performer>
   <performer name="高牧坤">
     <apprentice>艳阳楼</apprentice>
-    <apprentice>铁笼山</apprentice>
   </performer>
   <performer name="萧镇奎">
     <master>胡喜禄</master>
@@ -9633,10 +9458,8 @@
     <family>程富云</family>
   </performer>
   <performer name="陈绍武">
-    <parter>司马迁</parter>
     <parter>陈派</parter>
     <parter>厉慧良</parter>
-    <parter>荀灌娘</parter>
   </performer>
   <performer name="叶金援">
     <master>王金璐</master>
@@ -9647,7 +9470,7 @@
   <performer name="王益芳"/>
   <performer name="李桂春">
     <family>班坐科</family>
-    <family>武老生</family>
+    <family>文武</family>
     <family>李少春</family>
   </performer>
   <performer name="李金声">
@@ -9690,9 +9513,8 @@
   <performer name="夏月珊">
     <master>汪桂芬</master>
     <master>孙菊仙</master>
-    <family>武老生</family>
+    <family>文武</family>
     <family>夏奎章</family>
-    <family>独木关</family>
     <parter>阴阳河</parter>
     <parter>汪笑侬</parter>
     <parter>冯子和</parter>
@@ -9775,11 +9597,9 @@
     <family>马连良</family>
     <family>孙明珠</family>
     <family>凤宝桐</family>
-    <family>独木关</family>
     <family>张英俊</family>
     <family>关肃霜</family>
     <family>赵松樵</family>
-    <family>济公</family>
     <family>高雪樵</family>
     <family>月明珠</family>
     <family>王桂卿</family>
@@ -9801,7 +9621,6 @@
     <parter>杨宝森</parter>
     <parter>梅兰芳</parter>
     <parter>雪芳</parter>
-    <parter>周总理</parter>
     <parter>梁次珊</parter>
     <parter>荀慧生</parter>
     <parter>汪志奎</parter>
@@ -9844,7 +9663,6 @@
     <master>郝寿臣</master>
     <apprentice>厉家班</apprentice>
     <family>连环套</family>
-    <family>杜鹃山</family>
   </performer>
   <performer name="董俊峰">
     <apprentice>胡靓</apprentice>
@@ -9865,7 +9683,6 @@
     <parter>孟丽君</parter>
   </performer>
   <performer name="曹世嘉">
-    <master>世字科</master>
     <master>王喜秀</master>
     <master>萧长华</master>
     <master>沈春奎</master>
@@ -9922,7 +9739,6 @@
   <performer name="江世玉">
     <master>姜妙香</master>
     <master>萧长华</master>
-    <apprentice>世字科</apprentice>
     <family>江顺仙</family>
     <family>江长春</family>
   </performer>
@@ -9938,8 +9754,8 @@
   </performer>
   <performer name="于万增">
     <master>姜妙香</master>
+    <master>文武</master>
     <master>茹富兰</master>
-    <master>武小生</master>
     <master>刘玉麟</master>
     <family>桃花扇</family>
     <parter>罗成</parter>
@@ -9947,7 +9763,6 @@
     <parter>黄鹤楼</parter>
     <parter>杜近芳</parter>
     <parter>曾主演</parter>
-    <parter>柳荫记</parter>
   </performer>
   <performer name="何时希">
     <parter>姜妙香</parter>
@@ -9970,8 +9785,8 @@
     <apprentice>梁慧超</apprentice>
     <apprentice>袁金凯</apprentice>
     <family>武文华</family>
+    <family>文武</family>
     <family>郑永春</family>
-    <family>武老生</family>
     <family>白水滩</family>
     <family>杨声华</family>
     <family>李元春</family>
@@ -9980,7 +9795,6 @@
     <master>武文华</master>
     <master>王连平</master>
     <master>刘喜益</master>
-    <apprentice>世字科</apprentice>
     <parter>阎世善</parter>
     <parter>张云溪</parter>
     <parter>张春华</parter>
@@ -10145,7 +9959,6 @@
     <master>张春彦</master>
     <master>董魁荣</master>
     <master>贾立川</master>
-    <master>娃娃生</master>
     <master>王瑶卿</master>
     <master>吴连奎</master>
     <master>刘五毓</master>
@@ -10153,11 +9966,11 @@
     <master>余叔岩</master>
     <master>刘赶三</master>
     <family>杨小朵</family>
+    <family>文武</family>
     <family>杨宝忠</family>
     <family>杨毓麟</family>
     <family>杨桂云</family>
     <family>杨宝森</family>
-    <family>武老生</family>
     <family>朱莲芬</family>
     <family>杨宝义</family>
     <family>斌庆社</family>
@@ -10241,7 +10054,6 @@
     <family>杨宝森</family>
     <family>李门</family>
     <family>李华</family>
-    <family>南阳关</family>
     <parter>刘盛通</parter>
     <parter>吴素秋</parter>
     <parter>毛世来</parter>
@@ -10328,7 +10140,6 @@
     <parter>杨桂云</parter>
     <parter>陈德霖</parter>
     <parter>黄润甫</parter>
-    <parter>胭脂虎</parter>
     <parter>汪桂芬</parter>
     <parter>嵩祝成</parter>
     <parter>田桂凤</parter>
@@ -10355,7 +10166,6 @@
     <family>程砚秋</family>
     <family>孙怡云</family>
     <family>朱痕记</family>
-    <family>盗宗卷</family>
   </performer>
   <performer name="朱双喜"/>
   <performer name="张文斌"/>
@@ -10384,18 +10194,16 @@
     <parter>李紫贵</parter>
   </performer>
   <performer name="沈富贵">
-    <master>王连平</master>
-    <master>侯喜瑞</master>
-    <master>蔡荣春</master>
-    <master>黄天霸</master>
-    <master>冀州城</master>
-    <master>庐州城</master>
     <master>赵春瑞</master>
     <master>武文华</master>
     <master>王喜秀</master>
     <master>董凤岩</master>
+    <master>王连平</master>
     <master>富连成</master>
+    <master>侯喜瑞</master>
     <master>萧长华</master>
+    <master>蔡荣春</master>
+    <master>黄天霸</master>
     <master>殷家堡</master>
     <apprentice>荣春社</apprentice>
     <apprentice>沈长春</apprentice>
@@ -10518,11 +10326,9 @@
   <performer name="筱樊春楼">
     <family>薛银龄</family>
     <family>喜彩芬</family>
-    <family>状元媒</family>
     <parter>荀慧生</parter>
     <parter>林树森</parter>
     <parter>贯大元</parter>
-    <parter>武小生</parter>
     <parter>周信芳</parter>
     <parter>杨宝童</parter>
   </performer>
@@ -10547,9 +10353,9 @@
     <master>沈玉斌</master>
     <apprentice>荣春社</apprentice>
     <apprentice>尚小云</apprentice>
+    <family>文武</family>
     <family>毛毛旦</family>
     <family>宋宝罗</family>
-    <family>武老生</family>
     <family>宋紫君</family>
     <family>牛子厚</family>
     <family>宋益俊</family>
@@ -10594,7 +10400,6 @@
     <master>雪艳琴</master>
     <master>于玉蘅</master>
     <family>李慧娘</family>
-    <family>杜鹃山</family>
   </performer>
   <performer name="郭仲英">
     <apprentice>李玉茹</apprentice>
@@ -10637,8 +10442,6 @@
   <performer name="阎桂祥">
     <master>赵燕侠</master>
     <master>华世香</master>
-    <master>荀灌娘</master>
-    <master>盘夫</master>
     <master>赵荣琛</master>
     <master>张君秋</master>
     <apprentice>贾世珍</apprentice>
@@ -10658,7 +10461,6 @@
     <master>艳阳楼</master>
     <master>俞菊笙</master>
     <master>李长春</master>
-    <master>铁笼山</master>
     <master>李春</master>
     <family>秦稚芬</family>
     <family>秦燕</family>
@@ -10705,15 +10507,12 @@
     <master>钱宝森</master>
     <master>王凤卿</master>
     <family>朱桂芳</family>
-    <family>武老生</family>
     <family>断密涧</family>
     <family>贯紫林</family>
     <family>雷喜福</family>
     <family>朱毓芝</family>
     <family>王福山</family>
-    <family>胭脂虎</family>
     <parter>断密涧</parter>
-    <parter>渭水河</parter>
     <parter>潘金莲</parter>
   </performer>
   <performer name="王君直"/>
@@ -10730,18 +10529,17 @@
     <master>张伯驹</master>
     <master>邵寄舟学</master>
     <master>王平</master>
-    <master>武老生</master>
     <master>王又宸</master>
     <master>刘曾复</master>
     <master>郭文生</master>
     <master>王啸松</master>
+    <master>文武</master>
     <master>郭春阳</master>
     <master>纪玉良</master>
     <master>邵寄舟</master>
     <master>余叔岩</master>
     <master>梅兰芳</master>
     <master>谭鑫培</master>
-    <master>南阳关</master>
     <master>王凤卿</master>
     <apprentice>富连成</apprentice>
     <apprentice>孙春恒</apprentice>
@@ -10815,7 +10613,6 @@
     <master>姚增禄</master>
     <master>余玉琴</master>
     <master>溥侗</master>
-    <family>金山寺</family>
     <family>许姬</family>
     <family>俞振飞</family>
     <family>程继先</family>
@@ -10862,7 +10659,6 @@
   </performer>
   <performer name="邹功甫">
     <master>陈彦衡</master>
-    <master>武老生</master>
     <master>洪洋洞</master>
     <master>王颂忱</master>
     <parter>徐和才</parter>
@@ -10903,7 +10699,6 @@
     <parter>王金璐</parter>
     <parter>梅兰芳</parter>
     <parter>李玉茹</parter>
-    <parter>南阳关</parter>
   </performer>
   <performer name="范石人">
     <master>余叔岩</master>
@@ -11032,7 +10827,6 @@
   </performer>
   <performer name="鲜牡丹（京剧旦角）">
     <master>厉家班</master>
-    <master>武老生</master>
     <family>唐福广</family>
     <family>戴彤芳</family>
   </performer>
@@ -11176,7 +10970,6 @@
     <apprentice>陈琪</apprentice>
     <apprentice>赵荣琛</apprentice>
     <family>李慧娘</family>
-    <family>朝阳沟</family>
     <parter>梁小鸾</parter>
     <parter>杨宝森</parter>
     <parter>马连良</parter>
@@ -11202,7 +10995,6 @@
     <master>李世济</master>
     <master>冯志孝</master>
     <master>杨春霞</master>
-    <master>响马传</master>
     <master>孙岳</master>
     <master>李鸣盛</master>
     <master>祝元昆</master>
@@ -11254,7 +11046,6 @@
   </performer>
   <performer name="哈元章">
     <master>吴盛珠</master>
-    <family>哈宝山</family>
     <family>哈宝泉</family>
     <family>铁莲花</family>
     <parter>周正荣</parter>
@@ -11309,8 +11100,6 @@
   </performer>
   <performer name="金喜棠">
     <master>富连成</master>
-    <master>金字科</master>
-    <family>胭脂虎</family>
   </performer>
   <performer name="王天柱">
     <master>盖叫天</master>
@@ -11327,14 +11116,13 @@
     <family>叶金森</family>
     <parter>裴多菲</parter>
     <parter>李维康</parter>
+    <parter>艾美君</parter>
     <parter>布莱</parter>
     <parter>袁世海</parter>
-    <parter>杜近芳</parter>
-    <parter>艾美君</parter>
     <parter>张春华</parter>
     <parter>孙立</parter>
+    <parter>杜近芳</parter>
     <parter>斯拉夫</parter>
-    <parter>杜鹃山</parter>
     <parter>叶金森</parter>
     <parter>张君秋</parter>
   </performer>
@@ -11382,7 +11170,6 @@
     <master>刘盛通</master>
     <master>徐盛昌</master>
     <master>厉慧良</master>
-    <master>望儿楼</master>
     <master>李门</master>
     <master>张盛禄</master>
     <master>李盛藻</master>
@@ -11395,12 +11182,11 @@
     <master>蔡宝华</master>
   </performer>
   <performer name="于世文">
-    <master>世字科</master>
     <master>艾世菊</master>
     <master>王喜秀</master>
+    <master>文武</master>
     <master>张伯驹</master>
     <master>张连福</master>
-    <master>武老生</master>
     <master>刘喜益</master>
     <master>于老生</master>
     <master>宝森</master>
@@ -11438,8 +11224,6 @@
   </performer>
   <performer name="阎喜林">
     <master>富连成</master>
-    <family>冀州城</family>
-    <family>战渭南</family>
   </performer>
   <performer name="丁俊">
     <master>丁永利</master>
@@ -11467,7 +11251,6 @@
     <master>郭春山</master>
     <master>刘喜益</master>
     <master>张连保</master>
-    <apprentice>世字科</apprentice>
     <family>张佩文</family>
     <family>张德华</family>
     <family>张智兰</family>
@@ -11607,7 +11390,6 @@
     <master>萧长华</master>
     <master>侯喜瑞</master>
     <master>刘喜益</master>
-    <master>庐州城</master>
   </performer>
   <performer name="程富云">
     <master>武文华</master>
@@ -11627,8 +11409,6 @@
     <master>郭春山</master>
     <master>杨小楼</master>
     <master>雷喜福</master>
-    <master>铁笼山</master>
-    <master>冀州城</master>
     <master>王君</master>
     <master>赵平</master>
   </performer>
@@ -11640,12 +11420,9 @@
     <master>刘海</master>
     <master>王盛海</master>
     <master>刘喜益</master>
-    <master>盗魂铃</master>
     <master>宋起山</master>
-    <apprentice>世字科</apprentice>
     <apprentice>张鹏</apprentice>
     <apprentice>李铸等</apprentice>
-    <family>铁笼山</family>
   </performer>
   <performer name="米玉文">
     <master>丁永利</master>
@@ -11654,7 +11431,6 @@
     <master>曹玺彦</master>
     <master>钱富川</master>
     <master>迟月亭</master>
-    <master>玉字科</master>
     <parter>曾于连</parter>
   </performer>
   <performer name="项鼎新"/>
@@ -11751,15 +11527,12 @@
     <master>王金璐</master>
     <master>王瑞芝</master>
     <master>马超</master>
-    <master>独木关</master>
     <master>连环套</master>
     <master>孙毓堃</master>
     <master>小王桂卿</master>
     <master>谭元寿</master>
     <master>刘盛通</master>
-    <master>南阳关</master>
     <family>断密涧</family>
-    <family>盗宗卷</family>
     <parter>毕谷云</parter>
     <parter>王少楼</parter>
     <parter>李盛藻</parter>
