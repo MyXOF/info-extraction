@@ -12,17 +12,13 @@ public class WordRecognizer {
 			String nextWord) {
 		WordType type = WordType.USELESS_WORD;
 
-		if (wordInList(word, InfoExtractionConfig.USELESS_WORDS)) {
-			return new Pair<WordType, String>(WordType.REFERENCE_WORD, "");
-		}
-
 		// Sentence Word
 		if (wordInList(word, InfoExtractionConfig.SENTENCE_END)) {
 			return new Pair<WordType, String>(WordType.SENTENCE_END, "");
 		}
 
 		// Reference Word
-		if (wordInList(word, InfoExtractionConfig.REFERENCE_WORDS)) {
+		if (wordInList(word, InfoExtractionConfig.REFERENCE_WORDS) || wordInList(word, InfoExtractionConfig.USELESS_WORDS)) {
 			return new Pair<WordType, String>(WordType.REFERENCE_WORD, "");
 		}
 
