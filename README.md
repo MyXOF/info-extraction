@@ -167,16 +167,20 @@ public class Experiment4 {
 
 ## 结果
 
-最终结果采用了了[ECharts](http://echarts.baidu.com)，对部分师徒关系进行了可视化分析。更多可以参考info-extraction/webpage/index.html
+最终结果采用了[ECharts](http://echarts.baidu.com)，对部分师徒关系进行了可视化分析。更多可以参考info-extraction/webpage/index.html
 
 <center>京剧人物师徒关系(部分)</center>
+
 ![京剧人物师徒关系(部分)](img/pic1.png)
 
 <center>梅兰芳师徒关系</center>
+
 ![梅兰芳师徒关系](img/pic2.png)
 
 <center>裘盛戎师徒关系</center>
+
 ![裘盛戎师徒关系](img/pic3.png)
 
 <center>李万春师徒关系</center>
+
 ![李万春师徒关系](img/pic4.png)
